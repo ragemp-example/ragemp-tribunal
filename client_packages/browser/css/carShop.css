@@ -1,0 +1,289 @@
+#carShop {
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    height: 100vh;
+    position: absolute;
+    text-transform: uppercase;
+    width: 100vw;
+}
+
+#carShop .logo {
+    position: absolute;
+    top: 5.55vh;
+    right: 4.6vh;
+}
+
+#carShop .logo img {
+    height: 5.3vh;
+}
+
+#carShop .main {
+    left: 4.6vh;
+    position: absolute;
+    top: 5.6vh;
+    width: 40vh;
+}
+
+#carShop .main>div {
+    background-color: rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    position: relative;
+}
+
+#carShop .main .info {
+    display: grid;
+    grid-template-rows: repeat(2, min-content) 1fr repeat(2, min-content);
+    height: 56vh;
+    border-bottom: 1px solid rgba(255, 255, 255, .8);
+    border-top: 1px solid rgba(255, 255, 255, .8);
+}
+
+#carShop .main .info .type {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    margin-top: 2.68vh;
+}
+
+#carShop .main .info .type img {
+    height: 2.6vh;
+    margin: .5vh 3.1vh;
+    margin-right: 1vh;
+}
+
+#carShop .main .info .type>div {
+    color: rgba(255, 255, 255, .7);
+    font-size: 1.66vh;
+    margin: auto 0;
+}
+
+#carShop .main .info .name {
+    margin: 2.6vh 3.15vh;
+    font-size: 3.3vh;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#carShop .main .info .records {
+    margin: 0 3.15vh;
+    font-style: italic;
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+
+#carShop .main .info .records .record {
+    margin-bottom: 1vh;
+}
+
+#carShop .main .info .records .record .block {
+    display: flex;
+}
+
+#carShop .main .info .records .record .block .progress {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    height: 2vh;
+    margin: auto;
+    margin-left: 0;
+    width: 72%;
+}
+
+#carShop .main .info .records .record .block .progress .scale {
+    background-color: #FFFFFF;
+    height: calc(100% + 2px);
+    margin-left: -1px;
+    margin-top: -1px;
+    position: relative;
+}
+
+#carShop .main .info .records .record .block .progress .scale:after {
+    background-color: #999999;
+    content: "";
+    position: absolute;
+    height: 2.6vh;
+    right: -1px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: .5vh;
+}
+
+#carShop .main .info .records .record .block .unit {
+    background-color: #999999;
+    color: #000;
+    font-size: 1.66vh;
+    /* height: 2.6vh; */
+    line-height: 2.8vh;
+    margin: auto;
+    margin-right: 0;
+    text-align: center;
+    width: 8vh;
+}
+
+#carShop .main .info .price {
+    color: #A4FF48;
+    margin: 0 3.15vh;
+    font-size: 3.33vh;
+    font-weight: bold;
+}
+
+#carShop .main .info .price .head {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.66vh;
+    font-weight: normal;
+}
+
+#carShop .main .info .btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 2.3vh;
+    margin-top: 1vh;
+}
+
+#carShop .main .info .btns .btn {
+    font-size: 2vh;
+    font-weight: bold;
+    line-height: 6.3vh;
+    text-align: center;
+    width: 16.66vh;
+}
+
+#carShop .main .info .btns .btn.buy {
+    background-color: rgba(31, 163, 52, 0.5);
+}
+
+#carShop .main .info .btns .btn.buy:hover {
+    background-color: rgba(31, 163, 52, 0.6);
+}
+
+#carShop .main .info .btns .btn.test {
+    background-color: rgba(163, 126, 31, 0.5);
+}
+
+#carShop .main .info .btns .btn.test:hover {
+    background-color: rgba(163, 126, 31, 0.6);
+}
+
+#carShop .main .list {
+    height: 30vh;
+    margin-top: 3.3vh;
+    padding-top: 1px;
+}
+
+#carShop .main .list .title {
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    font-size: 2vh;
+    font-weight: bold;
+    margin: 1.85vh;
+}
+
+#carShop .main .list .title>div:last-child {
+    color: #fff;
+    margin-left: auto;
+}
+
+#carShop .main .list .body {
+    height: 23.7vh;
+    overflow: auto;
+}
+
+#carShop .main .list .body .item {
+    font-size: 1.66vh;
+    font-weight: bold;
+    height: 5vh;
+    line-height: 5vh;
+    padding-left: 1.85vh;
+}
+
+#carShop .main .list .body .item.focus {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#carShop .main .list .body .item:not(.focus):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#carShop .colors {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 5.55vh;
+    height: 30vh;
+    right: 4.6vh;
+    position: absolute;
+    width: 40vh;
+}
+
+#carShop .colors .title {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 2.22vh;
+    font-weight: bold;
+    margin: 1.85vh;
+    margin-bottom: 3vh;
+}
+
+#carShop .colors .record {
+    display: grid;
+    grid-gap: 1vh;
+    grid-template-columns: min-content 1fr min-content;
+    grid-template-rows: min-content min-content;
+    margin: 0 2.6vh;
+    margin-bottom: 2.5vh;
+}
+
+#carShop .colors .record .head {
+    grid-column: 2/3;
+    font-size: 1.5vh;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#carShop .colors .record .img {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#carShop .colors .record .img img {
+    height: 3vh;
+    margin: auto;
+}
+
+#carShop .colors .record .img.right {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#carShop .colors .record .img.right img {
+    transform: scale(-1);
+}
+
+#carShop .colors .record .values {
+    display: flex;
+    grid-column: 2/3;
+    justify-content: center;
+}
+
+#carShop .colors .record .values .item {
+    border-radius: 50%;
+    height: 3.7vh;
+    margin: auto;
+    width: 3.7vh;
+}
+
+#carShop .colors .record .values .item.focus {
+    border: 2px solid #2496FF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px #2496FF;
+}
+
+#carShop ::-webkit-scrollbar {
+    width: .3vh;
+}
+
+#carShop ::-webkit-scrollbar-track {
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#carShop ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+}

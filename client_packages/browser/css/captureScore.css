@@ -1,0 +1,70 @@
+#captureScore {
+    bottom: 10%;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1.5vh;
+    position: absolute;
+    right: 15vh;
+    top: 12vh;
+    width: 35.5vh;
+}
+
+#captureScore .progress {
+    display: flex;
+    font-size: 1.66vh;
+    font-weight: bold;
+    height: 3.15vh;
+    margin-bottom: 1vh;
+    /* overflow: hidden; */
+    width: 100%;
+}
+
+#captureScore .progress .fill {
+    height: 100%;
+    transition: width 1s;
+}
+
+#captureScore .progress .fill .scale {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#captureScore .progress .fill.left {
+    float: left;
+}
+
+
+#captureScore .progress .fill.left .scale {
+    clip-path: polygon(0 0, calc(100% - 3vh) 0, 100% 100%, 0 100%);
+}
+
+#captureScore .progress .fill.right {
+    float: right;
+    margin-left: -3vh;
+}
+
+#captureScore .progress .fill.right .scale {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 3vh 100%);
+}
+
+#captureScore .progress .fill img {
+    height: 2vh;
+    margin: auto .9vh;
+}
+
+#captureScore .progress .fill.right .scale div {
+    margin-left: auto;
+}
+
+#captureScore .progress .fill .scale div {
+    margin: auto 0;
+    margin-top: .7vh;
+}
+
+#captureScore .info {
+    display: flex;
+    font-size: 1.5vh;
+    font-weight: bold;
+    justify-content: space-between;
+}

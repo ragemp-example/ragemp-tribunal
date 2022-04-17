@@ -1,0 +1,92 @@
+/*body {*/
+/*    background: gray;*/
+/*    background-size: cover;*/
+/*    font-family: monospace, sans-serif;*/
+/*    font-size: 1.4vh;*/
+/*    margin: 0;*/
+/*    overflow: hidden;*/
+/*    padding: 0;*/
+/*    user-select: none;*/
+/*}*/
+
+#phone {
+    position: absolute;
+    right: 6%;
+    /*bottom: 10%;*/
+    bottom: -50%;
+    display: none;
+    background: url("../imgs/phone/back.png") no-repeat;
+    background-size: 100%;
+    width: 26vh;
+    height: 51.4vh;
+    font-family: Roboto;
+}
+
+#phone input {
+    outline: none;
+}
+
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:1px;
+    height:0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:#2e2e2e;
+    box-shadow:0px 0px 3px #000 inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#3a3a39;
+    background-position:center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+}
+
+::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width: 0px;
+    cursor: pointer;
+    height: 0px
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    cursor: pointer;
+}
+
+.loader01 {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    border: 0.5em solid #06A8FF;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: loader-rotate 1s linear infinite;
+    top: 50%;
+    left: 42.5%;
+}
+
+.loader-house {
+    border: 0.5em solid #2496FF;
+    border-right-color: transparent;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    animation: loader-rotate 1s linear infinite;
+}
+
+.block_loader-house-react {
+    animation: show-react .1s ease-in-out;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

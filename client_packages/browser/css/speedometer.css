@@ -1,0 +1,162 @@
+#speedometer {
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2.77vh;
+    box-sizing: border-box;
+    bottom: 1.85vh;
+    color: #fff;
+    height: 11.57vh;
+    right: 23vh;
+    padding: 1.5vh 2.77vh;
+    position: absolute;
+    /* width: 29vh; */
+}
+
+#speedometer.noActive,
+#speedometer.noActive .unit,
+#speedometer.noActive svg,
+#speedometer.noActive svg path,
+#speedometer.noActive svg rect {
+    color: rgba(255, 255, 255, .15)!important;
+    fill: rgba(255, 255, 255, .15)!important;
+}
+
+#speedometer .content {
+    display: flex;
+    height: 100%;
+}
+
+#speedometer .content .speed {
+    position: relative;
+    height: 100%;
+    width: 15vh;
+}
+
+#speedometer .content .speed>div {
+    display: flex;
+}
+
+#speedometer .content .speed .value {
+    font-size: 3.88vh;
+    font-weight: 800;
+    font-style: italic;
+    width: 8.5vh;
+}
+
+#speedometer .content .speed .value span {
+    opacity: .15;
+}
+
+#speedometer .content .speed .unit {
+    align-self: flex-end;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: .5vh;
+}
+
+#speedometer .content .speed svg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#speedometer .content .speed svg rect {
+    fill: rgba(255, 255, 255, 0.15);
+}
+
+#speedometer .content .speed svg rect.fill {
+    fill: var(--link);
+}
+
+#speedometer .headlights {
+
+}
+
+#speedometer .headlights svg {
+    height: 2.4vh;
+    width: 2.4vh;
+}
+
+#speedometer .headlights svg.off {
+    opacity: .1;
+}
+
+#speedometer .headlights svg.white {
+    opacity: .75;
+}
+
+#speedometer .fuel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1.5vh;
+    width: 4vh;
+}
+
+#speedometer .fuel svg {
+    height: 2.4vh;
+    width: 2.4vh;
+    margin: 0 auto;
+}
+
+#speedometer .fuel .unit {
+    font-family: Roboto;
+    font-size: 1.3vh;
+    font-weight: 400;
+    margin: auto;
+    margin-top: .5vh;
+    margin-bottom: 0;
+}
+
+#speedometer .fuel .unit.gas {
+    color: #FFBE5C;
+}
+
+#speedometer .fuel .unit.el {
+    color: #3693FF;
+}
+
+#speedometer .panel>div {
+    display: flex;
+}
+
+#speedometer .panel>div>div {
+    margin: 0 .5vh;
+}
+
+#speedometer .danger svg {
+    height: 2.4vh;
+    width: 2.4vh;
+    fill: rgba(255, 255, 255, .15);
+}
+
+#speedometer .lock svg {
+    height: 2.4vh;
+    width: 2.4vh;
+}
+
+#speedometer .danger svg.red {
+    fill: var(--no);
+}
+
+#speedometer .lock svg.red {
+    fill: var(--no);
+}
+
+#speedometer .lock svg.green {
+    fill: var(--yes);
+}
+
+#speedometer .panel .bottom {
+    justify-content: center;
+    margin-top: .6vh;
+}
+
+#speedometer .panel .bottom svg {
+    height: 3.88vh;
+    width: 3.88vh;
+    fill: rgba(255, 255, 255, 0.15);
+}
+
+#speedometer .panel .bottom svg.yellow {
+    fill: var(--yes);
+}

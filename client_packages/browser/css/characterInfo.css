@@ -1,0 +1,350 @@
+#characterInfo .info-box {
+    background-image: linear-gradient(110.85deg, rgba(0, 0, 0, 0.24) 0.01%, rgba(0, 0, 0, 0.32) 33.33%, rgba(0, 0, 0, 0) 100%);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Roboto;
+    padding: 3.7vh 5.5vh;
+    position: absolute;
+    right: 29.4vh;
+    top: 33.4%;
+    /* width: 42.1vh; */
+}
+
+#characterInfo .content {
+    display: grid;
+    grid-gap: 1.85vh .7vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+#characterInfo .content .name {
+    font-size: 3.3vh;
+    font-weight: 900;
+    margin-bottom: 2.4vh;
+    margin-top: .2vh;
+}
+
+#characterInfo .content .money {
+    font-size: 2vh;
+    justify-content: space-around;
+}
+
+#characterInfo .content .money img {
+    margin-right: .9vh;
+    margin-left: 3.5vh;
+    width: 1.85vh;
+}
+
+#characterInfo .content .money>div {
+    display: flex;
+    font-size: 1.66vh;
+    margin-bottom: 1.1vh;
+}
+
+#characterInfo .content .money>div .head {
+    color: #fff;
+    font-size: 1.3vh;
+    font-weight: normal;
+    opacity: .3;
+}
+
+#characterInfo .content .money .cash {
+    font-weight: bold;
+    color: #a2dd03;
+}
+
+
+#characterInfo .content .info {
+    color: #fff;
+    font-size: 1.3vh;
+    margin-left: 2.2vh;
+}
+
+#characterInfo .content .info .head {
+    font-size: 1.32vh;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#characterInfo .content .info .value {
+    font-size: 1.3vh;
+    margin-top: .2vh;
+}
+
+#characterInfo .content .info .value.faction {
+    color: #5BBAFF;
+}
+
+#characterInfo .content .info .value>div {
+    color: #fff;
+    opacity: .4;
+}
+
+#characterInfo .content .warns {
+    color: #b50000;
+    font-weight: bold;
+    margin: 1vh 0;
+    text-align: center;
+}
+
+#characterInfo .content .warns img {
+    margin-bottom: -0.3vh;
+    margin-right: 0.5vh;
+    width: 2vh;
+}
+
+#characterInfo .header {
+    background: #FF42F7;
+    border-radius: 20px 20px 0 0;
+    font-size: 1.7vh;
+    font-weight: bold;
+    padding: 1.5vh;
+    text-align: center;
+}
+
+#characterInfo .coins {
+    position: absolute;
+    right: 2.7vh;
+    top: 2.7vh;
+    display: flex;
+}
+
+#characterInfo .coins .panel {
+    display: flex;
+    font-family: Ubuntu;
+    background-color: rgba(28, 35, 41, 0.14);
+    border-radius: 1vh;
+    color: white;
+    padding: 1.2vh;
+    font-weight: 500;
+    font-size: 1.3vh;
+    line-height: 2vh;
+}
+
+#characterInfo .coins span {
+    font-size: 1.4vh;
+    color: #FF42F7;
+    margin: 0 1vh 0 3vh;
+}
+
+#characterInfo .coins img {
+    height: 1.7vh;
+    width: 1.7vh;
+}
+
+#characterInfo .add-coins {
+    font-family: Ubuntu;
+    background-color: #FF42F7;
+    border-radius: 1vh;
+    padding: 1.2vh;
+    font-weight: 500;
+    font-size: 1.3vh;
+    text-align: center;
+    width: 12.5vh;
+    line-height: 1vh;
+    height: 1vh;
+    margin: 0.5vh 1.1vh;
+}
+
+#characterInfo .add-coins:hover {
+    box-shadow: 0px 0px 0.3vh #FF42F7;
+}
+
+
+
+#characterSelector {
+    bottom: 5vh;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+#characterSelector>div {
+    align-items: center;
+    display: flex;
+}
+
+
+#characterSelector .btn {
+    background-image: linear-gradient(133.71deg, rgba(0, 0, 0, 0.24) 0.01%, rgba(0, 0, 0, 0.32) 33.33%, rgba(0, 0, 0, 0) 100%);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1.7vh;
+    font-weight: normal;
+    height: 5.6vh;
+    line-height: 5.5vh;
+    margin: 0 1.5vh;
+    text-align: center;
+    width: 18vh;
+}
+
+#characterSelector .btn:not(.disabled):hover {
+    background-image: linear-gradient(92.57deg, rgba(36, 150, 255, 0.8) 0.01%, #2496FF 50.52%, rgba(36, 150, 255, 0.4) 100%);
+}
+
+#characterSelector .arrow {
+    background-image: linear-gradient(106.73deg, rgba(0, 0, 0, 0.24) 0.01%, rgba(0, 0, 0, 0.32) 33.33%, rgba(0, 0, 0, 0) 100%);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    display: flex;
+    height: 5.6vh;
+    width: 5.6vh;
+}
+
+#characterSelector .arrow img {
+    height: 1.85vh;
+    margin: auto;
+}
+
+#characterSelector .arrow.right {
+    transform: scale(-1);
+}
+
+#characterSelector .arrow:not(.disabled):hover {
+    background-image: linear-gradient(92.57deg, rgba(36, 150, 255, 0.8) 0.01%, #2496FF 50.52%, rgba(36, 150, 255, 0.4) 100%);
+}
+
+#characterSelector .disabled img {
+    opacity: 0.3;
+}
+
+
+#createCharacter {
+    background: #FF42F7;
+    border-radius: 10vh;
+    bottom: 37%;
+    height: 19vh;
+    left: 44.3%;
+    position: absolute;
+    width: 19vh;
+}
+
+#createCharacter > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#createCharacter:active {
+    color: #fff;
+}
+
+#createCharacter:hover {
+    background: #FF42F7;
+}
+
+#createCharacter .plus {
+    font-size: 7vh;
+    text-align: center;
+    font-family: none;
+}
+
+#createCharacter .text {
+    text-align: center;
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+
+#characterAddSlot {
+    background: rgba(12, 12, 12, 0.6);
+    border-radius: 1vh;
+    position: absolute;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 1.5vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    padding: 2.4vh 5.4vh;
+    opacity: 0;
+}
+
+#characterAddSlot .add-slot.step {
+    position: relative;
+    left: -2.7vh;
+}
+
+#characterAddSlot .add-slot>div {
+    display: flex;
+    color: white;
+}
+
+#characterAddSlot .add-slot span {
+    color: #FF42F7;
+    font-weight: 500;
+    margin: 0 0.6vh 0 1.3vh;
+}
+
+#characterAddSlot .add-slot img {
+    height: 1.7vh;
+    width: 1.7vh;
+}
+
+#characterAddSlot .add-slot .btn {
+    height: 3.9vh;
+    width: 14.6vh;
+    margin: 0 2.2vh;
+    margin-top: 1.8vh;
+    border-radius: 1.3vh;
+    line-height: 3.9vh;
+    border: 0.1vh solid #FF42F7;
+    display: block;
+    text-align: center;
+}
+
+
+#characterAddSlot .add-slot .btn:hover {
+    background-color: #FF42F7;
+    color: #000;
+}
+
+#characterAddSlot .add-slot .btn:active {
+    background-color: #FF42F7;
+    border: 0.1vh solid #009c0f;
+    color: #000;
+}
+
+#characterAddSlot .other {
+    color: white;
+    display: flex;
+    font-weight: 400;
+    width: 27vh;
+}
+
+#characterAddSlot .other .or {
+    font-size: 1.2vh;
+    text-align: center;
+    width: 8vh;
+    height: 100%;
+}
+
+#characterAddSlot .other .or>div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0.7vh;
+}
+
+#characterAddSlot .other .info {
+    margin-left: 4.2vh;
+    text-align: center;
+}
+
+#characterAddSlot .other .info span {
+    font-weight: 700;
+    color: #FF42F7;
+}
+
+#characterAddSlot .other .info>div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

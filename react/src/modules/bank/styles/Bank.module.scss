@@ -1,0 +1,439 @@
+$color-green: #56AB2F;
+$color-grey: #939393;
+$gradient_push: linear-gradient(139.27deg, #FF3636 7.51%, #FF9153 89.67%);
+$gradient_pop: linear-gradient(137.9deg, #FFC700 12.71%, #FF9900 91.27%);
+$gradient_taxes: linear-gradient(149.66deg, #00CE3A 7.2%, #00C19F 91.89%);
+$gradient_cashbox: linear-gradient(147.28deg, #24CAFF 12.46%, #2461FF 91.65%);
+$gradient_transfer: linear-gradient(145.54deg, #FC53FF 9.19%, #FF539B 90.57%);
+
+.back {
+  font-family: Roboto;
+  width: 95vh;
+  height: 56vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-width: 2000px;
+  max-height: 1200px;
+  background-color: #F6F6F6;
+  //padding: 2em;
+  box-sizing: border-box;
+  border-radius: 1em;
+  //overflow-y: hidden;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  & img {
+    width: 28%;
+  }
+
+  & span {
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-left: 0.8em;
+  }
+}
+
+.exit {
+  position: absolute;
+  top: -2em;
+  right: 0;
+  color: white;
+  opacity: 0.5;
+  transition: 0.15s ease-in-out;
+  font-size: 0.9em;
+
+  & span {
+    font-size: 1.1em;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 2fr;
+  column-gap: 4em;
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.5px solid #CFCFCF;
+  padding: 2em;
+  padding-bottom: 1.5em;
+  box-sizing: border-box;
+}
+
+.money {
+  text-align: left;
+
+  & span {
+    color: $color-grey;
+  }
+
+  & p {
+    margin-top: 0.3em;
+    margin-bottom: 0;
+    font-size: 1.8em;
+    color: $color-green;
+    font-weight: 300;
+  }
+}
+
+.info {
+  text-align: right;
+  //display: flex;
+  //align-items: center;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0.6em;
+}
+
+.number {
+  background: linear-gradient(90deg, #56AB2F 0%, #A8E063 100%);
+  color: white;
+  font-size: 1.5em;
+  padding: 0.2em 0.5em;
+  box-sizing: border-box;
+  border-radius: 0.4em;
+  margin-top: 2em;
+  font-weight: 300;
+}
+
+.page {
+  margin-top: 1em;
+  position: absolute;
+  width: 100%;
+  padding: 2em;
+  padding-top: 0;
+  box-sizing: border-box;
+  background-color: #F6F6F6;
+  //background-color: black;
+  height: 70%;
+}
+
+.successPage, .errorPage {
+  background: linear-gradient(90deg, #56AB2F 0%, #A8E063 100%);
+  color: white;
+  border-radius: 1em;
+  margin-top: -0.5em;
+  height: 82.5%;
+  padding-top: 2em;
+  box-sizing: border-box;
+
+  & .title {
+    color: white;
+  }
+
+  & p {
+    font-size: 1.3em;
+  }
+}
+
+.errorPage {
+  background: linear-gradient(90deg, #AB2F2F 0%, #E07263 100%);
+}
+
+.confirmPage {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  color: white;
+  height: 143%;
+  margin-top: -8.6em;
+  border-radius: 1em;
+  padding: 10em 22em;
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  margin-left: -2em;
+
+  & p {
+    font-size: 1.3em;
+  }
+
+  & span {
+    color: $color-green;
+  }
+
+  & button {
+    margin-left: 1em;
+  }
+}
+
+.title {
+  color: $color-grey;
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1.5em;
+  margin-top: 4em;
+}
+
+.menuButton {
+  position: relative;
+  background-color: white;
+  padding: 2em 1.5em;
+  box-sizing: border-box;
+  border-radius: 1em;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  //transition: 0.15s ease-in-out;
+
+  & p {
+    margin-top: 5em;
+    font-size: 1.3em;
+  }
+
+  &:nth-child(1) {
+    & .buttonIcon {
+      background: $gradient_push;
+    }
+
+    &:hover {
+      background: $gradient_push;
+
+      & path {
+        fill: url('#push_gradient');
+      }
+    }
+  }
+
+  &:nth-child(2) {
+    & .buttonIcon {
+      background: $gradient_pop;
+    }
+
+    &:hover {
+      background: $gradient_pop;
+
+      & path {
+        fill: url('#pop_gradient');
+      }
+    }
+  }
+
+  &:nth-child(3) {
+    & .buttonIcon {
+      background: $gradient_taxes;
+    }
+
+    &:hover {
+      background: $gradient_taxes;
+
+      & path {
+        fill: url('#taxes_gradient');
+      }
+    }
+  }
+
+  &:nth-child(4){
+    & .buttonIcon {
+      background: $gradient_cashbox;
+    }
+
+    &:hover {
+      background: $gradient_cashbox;
+
+      & path {
+        fill: url('#cashbox_gradient');
+      }
+    }
+  }
+
+  &:nth-child(5) {
+    & .buttonIcon {
+      background: $gradient_transfer;
+    }
+
+    &:hover {
+      background: $gradient_transfer;
+
+      & path {
+        fill: url('#transfer_gradient');
+      }
+    }
+  }
+
+  &:hover {
+    color: white;
+
+    & .buttonIcon {
+      background: white;
+    }
+  }
+}
+
+.buttonIcon {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & img, svg {
+    width: 55%;
+    fill: white;
+  }
+}
+
+.buttonIconWrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.error {
+  color: red;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.cashBoxState {
+  font-size: 1.4em;
+
+  & span {
+    color: $color-green;
+  }
+}
+
+.cashBoxWrapper {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.cashBoxAreas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2em;
+}
+
+.cashBoxArea {
+  background-color: white;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 1em;
+  padding: 1em;
+  box-sizing: border-box;
+
+  & h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: $color-green;
+    margin-bottom: 0.7em;
+  }
+}
+
+.tax {
+  background-color: white;
+  border-radius: 1em;
+  padding: 0.7em;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  height: 25em;
+}
+
+.taxInfo {
+  text-align: left;
+
+  & p {
+    color: $color-grey;
+  }
+
+  & span {
+    color: black;
+  }
+}
+
+.taxDays {
+  margin-top: 1em;
+  display: flex;
+  //display: grid;
+  //grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  column-gap: 1em;
+
+  & input {
+    background-color: #EBEBEB;
+    color: #2F2F2F;
+    font-size: 1em;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 6em;
+
+    &::placeholder {
+      color: #BFBFBF;
+    }
+  }
+
+  & span {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    color: #2F2F2F;
+    transition: 0.15s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & b {
+      position: absolute;
+      font-size: 2em;
+      line-height: 0;
+      font-weight: 400;
+    }
+
+    &:hover {
+      background-color: #2F2F2F;
+      color: white;
+      box-shadow: none;
+    }
+  }
+}
+
+.total {
+  margin-top: 1em;
+  font-size: 1.1em;
+  font-weight: 500;
+
+  & span {
+    color: #56AB2F;
+    font-weight: 400;
+  }
+}
+
+.taxTitle {
+  font-size: 1.5em;
+  text-align: center;
+}

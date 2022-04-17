@@ -1,0 +1,61 @@
+#loader .lds-rolling {
+    position: absolute;
+    animation: login 1s ease-in-out;
+}
+
+#loader .lds-rolling div,
+#loader .lds-rolling div:after {
+    position: absolute;
+    width: 9vh;
+    height: 9vh;
+    border: 20px solid #2496FF;
+    border-top-color: transparent;
+    border-radius: 50%;
+}
+
+#loader .lds-rolling div {
+    -webkit-animation: lds-rolling 1.2s linear infinite;
+    animation: lds-rolling 1.2s linear infinite;
+    top: 45%;
+    left: 45%;
+}
+
+#loader .lds-rolling div:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#loader .lds-rolling {
+    height: 9vh !important;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 9vh !important;
+}
+
+/* Анимация */
+
+@keyframes lds-rolling {
+    0% {
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes lds-rolling {
+    0% {
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

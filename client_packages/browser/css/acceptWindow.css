@@ -1,0 +1,74 @@
+#accept-window {
+    background-image: linear-gradient(123deg, rgba(0, 0, 0, 0.6) 0.01%, rgba(0, 0, 0, 0.8) 33.33%, rgba(0, 0, 0, 0.1) 100%);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1.5vh;
+    font-weight: 400;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vh;
+}
+
+#accept-window .head {
+    font-weight: 900;
+    font-size: 2.58vh;
+    margin-top: 3.7vh;
+}
+
+#accept-window .content {
+    margin-top: 2vh;
+    font-size: 1.67vh;
+}
+
+#accept-window .content span {
+    font-weight: 900;
+    color: #53F56D;
+    white-space: nowrap;
+}
+
+#accept-window .btns {
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: min-content;
+}
+
+#accept-window .btns .btn {
+    display: flex;
+    margin: 3.8vh 2.8vh;
+}
+
+#accept-window .btns .btn>div {
+    margin: 1.65vh 3.3vh;
+}
+
+#accept-window .btns .agree {
+    background-color: rgba(52, 222, 59, .2);
+}
+
+#accept-window .btns .agree:hover {
+    background-color: rgba(52, 222, 59, .4);
+}
+
+/* #accept-window .btns .agree:active {
+    background-color: rgba(52, 222, 59, .8);
+} */
+
+#accept-window .btns .cancel {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+#accept-window .btns .cancel:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+/* #accept-window .btns .cancel:active {
+    background-color: rgba(255, 255, 255, 0.4);
+} */

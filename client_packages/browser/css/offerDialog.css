@@ -1,0 +1,72 @@
+#offerDialog {
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2.77vh;
+    box-sizing: border-box;
+    bottom: 1.85vh;
+    color: white;
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    left: 50%;
+    max-width: 60vh;
+    opacity: 0;
+    padding: 1.5vh;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+#offerDialog .btn {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 2.77vh;
+    display: flex;
+    font-size: 2.22vh;
+    height: 6vh;
+    width: 6vh;
+    transition: all .2s ease-out;
+}
+
+#offerDialog .btn.agree {
+    color: var(--yes);
+}
+
+#offerDialog .btn.cancel {
+    color: var(--no);
+
+}
+
+#offerDialog .btn>div {
+    margin: auto;
+}
+
+#offerDialog .agree:hover,
+#offerDialog .agree.green {
+    background: rgba(255, 255, 255, 0.25);
+    font-size: 3vh;
+}
+
+
+#offerDialog .cancel:hover,
+#offerDialog .cancel.red {
+    background: rgba(255, 255, 255, 0.25);
+    font-size: 3vh;
+}
+
+#offerDialog .content {
+    display: flex;
+    margin: 0 1.85vh;
+    overflow: hidden;
+}
+
+#offerDialog .content .message {
+    height: min-content;
+    margin: auto;
+    text-align: center;
+}
+
+#offerDialog .content span {
+    font-weight: 700;
+}
+
+#offerDialog .content span.money {
+    color: var(--yes);
+    white-space: nowrap;
+}

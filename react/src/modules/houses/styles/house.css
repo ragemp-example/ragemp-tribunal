@@ -1,0 +1,177 @@
+.house__form {
+    position: absolute;
+    width: 80vh;
+    height: 38vh;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    /* max-width: 2200px; */
+    /* max-height: 1000px; */
+    min-width: 300px;
+    min-height: 150px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 2% 2%;
+    box-sizing: border-box;
+    border-radius: 2vh;
+    backdrop-filter: blur(3px);
+    animation: show-react 0.1s ease-in-out;
+}
+
+@media screen and (min-width: 3000px) and (max-height: 2000px) {
+    .house__form {
+        height: 48vh;
+        width: 35vw;
+    }
+}
+
+.house__title {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.house__info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.house__main_info {
+    font-size: 1.1em;
+    width: 45%;
+}
+
+.house__main_info h1 {
+    font-size: 1.7em;
+    margin-block-start: 0;
+}
+
+.house__main_info b {
+    margin-right: 3%;
+}
+
+.house__price_actions {
+    width: 60%;
+    /* padding-top: 1.5%; */
+    position: relative;
+}
+
+.house__price {
+    border: 1px solid white;
+    border-radius: 1.3vh;
+    padding: 4% 6%;
+    color: #51FF62;
+    font-weight: 700;
+    font-size: 1.2em;
+    right: 0;
+    position: absolute;
+}
+
+.house__actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25%;
+}
+
+.house__button {
+    border: 1px solid white;
+    text-align: center;
+    width: 32%;
+    padding: 4% 5%;
+    box-sizing: border-box;
+    border-radius: 0.7vh;
+    margin-left: 5%;
+    transition: all 0.2s ease-in-out;
+}
+
+.house__button:nth-child(1) {
+    margin-left: 0;
+}
+
+.house__button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.house__button:active {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.house__button img {
+    width: 40%;
+}
+
+.house__button div {
+    font-size: 1em;
+    margin-top: 8%;
+}
+
+.house__message {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 25%;
+    left: 37.5%;
+    top: 40%;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 2% 1%;
+    box-sizing: border-box;
+    border-radius: 0.8vw;
+    animation: show-react 0.1s ease-in-out;
+}
+
+.house__message img {
+    width: 12%;
+}
+
+.house__menu {
+    height: 11vw;
+    display: flex;
+    justify-content: center;
+    /* backdrop-filter: blur(2px); */
+}
+
+.house__menu img {
+    width: 50%;
+}
+
+.house__menu .house__button {
+    width: 35%;
+}
+
+.house__message_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.house__message_buttons div {
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5vw;
+    padding: 3%;
+    margin-left: 5%;
+    transition: all 0.2s ease-in-out;
+}
+
+.house__message_buttons div:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.house__message_buttons div:nth-child(1) {
+    margin-left: 0;
+}
+
+.house__exit {
+    position: absolute;
+    right: 0;
+    top: -7%;
+    font-size: 1.2em;
+}
+
+.house__menu .house__exit {
+    font-size: 1em;
+    top: -15%
+}

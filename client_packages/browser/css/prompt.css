@@ -1,0 +1,34 @@
+#prompt {
+    background: rgba(0, 13, 24, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2.77vh;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    padding: 1.5vh;
+    position: absolute;
+    right: 33vh;
+    top: 2.77vh;
+    max-width: 32vh;
+    word-break: break-word;
+    line-height: 2vh;
+    opacity: 0;
+}
+
+#prompt img {
+    margin: auto;
+    margin-right: 1vh;
+    height: 2.77vh;
+    width: 2.77vh;
+}
+
+#prompt .text {
+    /* padding: 1vh; */
+}
+
+#prompt span {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 2.77vh;
+    font-weight: 900;
+    padding: .8vh;
+}

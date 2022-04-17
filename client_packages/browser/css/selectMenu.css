@@ -1,0 +1,319 @@
+#selectMenu {
+    background: rgba(0, 13, 24, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2.77vh;
+    box-sizing: border-box;
+    color: #fff;
+    right: 3.7vh;
+    overflow: hidden;
+    position: absolute;
+    top: 16%;
+    min-width: 36vh;
+    width: min-content;
+}
+
+#selectMenu .header,
+#selectMenu .headerImg {
+    background-size: contain;
+    box-sizing: border-box;
+    min-height: 11.11vh;
+}
+
+#selectMenu .header {
+    box-sizing: border-box;
+    display: flex;
+    padding: 1vh;
+}
+
+#selectMenu .header>div {
+    margin: auto;
+    text-align: center;
+}
+
+#selectMenu .content {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    display: grid;
+    margin: 1vh 1.3vh;
+}
+
+#selectMenu .arrow {
+    background-image: url('../img/selectMenu/arrow.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: contain;
+    height: 2.96vh;
+    opacity: .15;
+    width: 2.96vh!important;
+}
+
+#selectMenu .arrow.active {
+    opacity: 1;
+}
+
+#selectMenu .arr-down {
+    margin: auto;
+    margin-bottom: 1vh;
+}
+
+#selectMenu .arr-left {
+    transform: rotate(90deg);
+    margin: 0 1vh;
+}
+
+#selectMenu .arr-right {
+    transform: rotate(-90deg);
+    margin: 0 1vh;
+}
+
+#selectMenu .arr-up {
+    transform: rotate(180deg);
+    margin: auto;
+    margin-top: 1vh;
+}
+
+#selectMenu .color-type {
+    height: 2vh;
+    width: 2vh;
+}
+
+#selectMenu .content .item {
+    border-radius: 2.77vh;
+    display: flex;
+    min-height: 5.37vh;
+    margin: .5vh 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#selectMenu .content .item::after {
+    content: "";
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    border-radius: 2.77vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#selectMenu .content .item.selected {
+    background: linear-gradient(180deg, #0061CF 0%, #004EA7 100%);
+    background-clip: content-box;
+}
+
+#selectMenu .content .item>div {
+    margin: auto;
+}
+
+#selectMenu .content .item>.name {
+    margin-left: 2.22vh;
+    margin-right: 0;
+    max-width: 60%;
+    overflow: hidden;
+}
+
+#selectMenu .content .item>.value {
+    font-weight: normal;
+    margin-right: 2.22vh;
+    max-width: 40%;
+    white-space: nowrap;
+}
+
+#selectMenu .content .item>.value img {
+    margin-left: .9vh;
+    width: 1.5vh;
+}
+
+#selectMenu .content .item.selected>.value img {
+    opacity: 1;
+}
+
+#selectMenu .content .item>.value.color-type {
+    border-radius: 50%;
+}
+
+#selectMenu .content .items .button {
+    width: 100%;
+}
+
+#selectMenu .selector {
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2.77vh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    height: 4.6vh;
+    margin: 1vh 1.3vh;
+}
+
+#selectMenu .selector .values {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#selectMenu .selector .values>div {
+    opacity: .5;
+    text-align: center;
+    width: 100%;
+    height: min-content;
+}
+
+#selectMenu .selector .values>div:nth-child(2) {
+    font-size: 1.5vh;
+    font-weight: 700;
+    opacity: 1;
+}
+
+#selectMenu .selector.select-color .values {
+}
+
+#selectMenu .selector.select-color .values>div {
+    /* border: .4vh solid #0000; */
+    border-radius: 50%;
+    /* box-sizing: content-box; */
+    height: 2vh;
+    margin: 0 0.4vh;
+    width: 2vh;
+    opacity: 1;
+}
+
+
+#selectMenu .selector.select-color .values>div.active:not(.arrow) {
+    border: .4vh solid #0061CF;
+    box-shadow: 0px 0px 3.88vh #0061CF;
+    opacity: 1;
+}
+
+#selectMenu .selector.select-number>div {
+    font-size: 1.3vh;
+    font-weight: 500;
+    margin: 0 1.5vh;
+}
+
+#selectMenu .selector.select-number .progress {
+    align-items: center;
+    background: rgba(255, 255, 255, .15);
+    border-radius: 2.77vh;
+    display: flex;
+    height: 2.77vh;
+    overflow: hidden;
+    margin: 0 0;
+    width: 100%;
+}
+
+#selectMenu .selector.select-number .progress .fill {
+    background: rgba(255, 255, 255, 1);
+    height: 100%;
+}
+
+#selectMenu .notification {
+    align-items: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    padding: 1vh 2vh;
+    word-break: break-word;
+    text-align: center;
+}
+
+#selectMenu .textField {
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2.77vh;
+    box-sizing: border-box;
+    height: 4.6vh;
+    margin: 1vh 1.3vh;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 0.5vh;
+}
+
+#selectMenu .textField input {
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.3vh;
+    outline: none;
+    width: 80%;
+}
+
+#selectMenu .textField img {
+    height: 1.5vh;
+}
+
+/* Колесо загрузки в меню выбора */
+#selectMenu .loader {
+    left: 45%;
+    position: absolute;
+    top: 40%;
+}
+
+#selectMenu .loader .lds-rolling {
+    position: absolute;
+    animation: login 1s ease-in-out;
+}
+
+#selectMenu .loader .lds-rolling div,
+#selectMenu .loader .lds-rolling div:after {
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    border: 1vh solid #1ECD2F;
+    border-top-color: transparent;
+    border-radius: 50%;
+}
+
+#selectMenu .loader .lds-rolling div {
+    -webkit-animation: lds-rolling 1.2s linear infinite;
+    animation: lds-rolling 1.2s linear infinite;
+    top: 45%;
+    left: 45%;
+}
+
+#selectMenu .loader .lds-rolling div:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#selectMenu .loader .lds-rolling {
+    width: 5vh !important;
+    height: 5vh !important;
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+
+/* Анимация */
+
+@keyframes lds-rolling {
+    0% {
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes lds-rolling {
+    0% {
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: phone-font;
+    src: url("./sf.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: bank-font;
+    src: url("./DINAlternateBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: main-font;
+    src: url("./main.otf") format("opentype");
+}
+
+@font-face {
+    font-family: chat-font;
+    src: url("./chat.ttf") format("truetype");
+}
+
+/*@font-face {*/
+/*    font-family: roboto;*/
+/*    src: url("./Roboto-Regular.ttf") format("truetype");*/
+/*}*/
+

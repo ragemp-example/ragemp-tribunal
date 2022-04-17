@@ -1,0 +1,69 @@
+#playersList {
+    width: 80vh;
+    height: 50vh;
+    font-size: 120%;
+    color: white;
+    background: rgba(0, 0, 0, 0.66);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    /* animation: show-react .1s ease-in-out; */
+}
+
+.players_list-head {
+    height: 23%;
+}
+
+.players_list-body {
+    height: 78%;
+    overflow: auto;
+    margin-top: -.8%;
+}
+
+#playersList table {
+    width: 100%;
+    border: 1px solid white;
+}
+
+#playersList thead {
+    font-size: 120%;
+    background: #FF42F7;
+    color: black;
+}
+
+#playersList th {
+    padding: 1%;
+}
+
+.players_list-navigate_panel {
+    width: 100%;
+    padding: 1% 3% 3% 3%;
+    box-sizing: border-box;
+}
+
+.players_list-navigate_panel input {
+    background: transparent;
+    padding: 1%;
+    border: none;
+    border-bottom: 1px solid #FF42F7;
+    color: white;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 2%;
+    outline: none;
+}
+
+.players_list-navigate_panel div {
+    background: rgba(0, 0, 0, 0.66);
+    display: inline-block;
+    color: white;
+    padding: 1%;
+    outline: none;
+    margin-left: 1%;
+    width: 15%;
+    border-right: 2px solid gray;
+}

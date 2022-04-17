@@ -1,0 +1,114 @@
+#map-case.fib .verification .btns .btn {
+    color: #12007E;
+}
+
+#map-case.fib .window .permissions .body .cat,
+#map-case.fib .verification .btns .btn:active {
+    background-color: #12007E;
+    color: #fff;
+}
+
+#map-case.fib .body .back svg {
+    fill: #12007E;
+}
+
+#map-case.fib .screen {
+    background-image: linear-gradient(180deg, #12007E 14.17%, rgba(0,0,0,0) 14.17%);
+}
+
+#map-case.fib .window .permission-tab .title>span>a,
+#map-case.fib .screen .menu {
+    color: #12007E;
+}
+
+#map-case.fib .menu .list .item.focus {
+    background-color: #12007E;
+}
+
+#map-case.fib .window .dbSearch .search,
+#map-case.fib .window .dbSearch .dbSearch-menu>div {
+    color: #12007E;
+}
+
+#map-case.fib .window .dbSearch .dbSearch-menu>div.focus {
+    color: #fff;
+    background-color: #12007E;
+}
+
+#map-case.fib .window .dbSearch .search:active {
+    color: #fff;
+    background-color: #12007E;
+}
+
+#map-case.fib .over .stars svg,
+#map-case.fib .profile .stars svg,
+#map-case.fib .table .body .record .stars svg {
+    fill: rgba(18, 0, 126, 0.2);
+}
+
+#map-case .table .body .record:active .stars svg {
+    fill: rgba(255, 255, 255, 0.2);
+}
+
+#map-case.fib .over .stars svg.fill,
+#map-case.fib .profile .stars svg.fill,
+#map-case.fib .table .body .record .stars svg.fill {
+    fill: #12007E;
+}
+
+#map-case.fib .board .title .filter .check-box::after,
+#map-case.fib .board .table .record.focus,
+#map-case.fib .table .record:active {
+    background-color: #12007E!important;
+    color: #fff;
+}
+
+#map-case.fib .window .board .table .record .btn {
+    background-color: #12007E;
+}
+
+#map-case.fib .window .board .table .record:active .btn,
+#map-case.fib .window .board .table .record.focus .btn,
+#map-case.fib .window .board .table .record .btn:active {
+    background-color: #fff;
+    box-shadow: inset 0px .18vh .74vh rgba(0, 0, 0, 0.25);
+    color: #12007E;
+}
+
+#map-case.fib .window .board .table .record:active .btn svg path,
+#map-case.fib .window .board .table .record.focus .btn svg path,
+#map-case.fib .window .board .table .record .btn:active svg path {
+    fill: #12007E;
+    fill-opacity: 1;
+}
+
+#map-case.fib .window .storage .btn,
+#map-case.fib .window .members .action-modal {
+    color: #12007E;
+}
+
+#map-case.fib .window .storage .btn:active,
+#map-case.fib .window .members .action-modal .btn:active {
+    background-color: #12007E;
+    color: #fff;
+}
+
+#map-case.fib .window .profile .right-panel .btn {
+    color: #12007E;
+}
+
+#map-case.fib .window .profile .right-panel .btn:active {
+    background-color: #12007E;
+    color: #fff;
+}
+
+
+#map-case.fib .calls .body .call .dist,
+#map-case.fib .calls .body .call .btn {
+    color: #12007E;
+}
+
+#map-case.fib .calls .body .call .btn:active {
+    background-color: #12007E;
+    color: #fff;
+}

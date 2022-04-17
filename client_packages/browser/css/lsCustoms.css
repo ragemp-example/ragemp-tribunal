@@ -1,0 +1,178 @@
+#lsCustoms {
+    color: #fff;
+    font-family: Roboto;
+    height: 100vh;
+    width: 100vw;
+}
+
+#lsCustoms .gradient {
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35.74vh;
+}
+
+#lsCustoms .logo {
+    left: 5.55vh;
+    position: absolute;
+    top: 2.77vh;
+}
+
+#lsCustoms .logo img {
+    height: 5.55vh;
+}
+
+#lsCustoms .hint {
+    display: flex;
+    font-size: 1.66vh;
+    right: 5.55vh;
+    position: absolute;
+    top: 2.77vh;
+}
+
+#lsCustoms .hint>div {
+    position: relative;
+    margin-left: 2.8vh;
+    max-width: 17.03vh;
+    text-align: center;
+}
+
+#lsCustoms .hint>div .img {
+    position: relative;
+    height: 6.5vh;
+    margin-bottom: 1vh;
+}
+
+#lsCustoms .hint>div .img img {
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+#lsCustoms .hint>div .img .enter {
+    bottom: .1vh;
+    height: 3vh;
+}
+
+#lsCustoms .disable {
+    opacity: .25;
+}
+
+#lsCustoms .main {
+    bottom: 3.14vh;
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    height: 17.03vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 123.5vh;
+}
+
+#lsCustoms .main>img:first-child {
+    transform: scale(-1);
+}
+
+#lsCustoms .main>img {
+    height: 6.1vh;
+    margin: auto 1vh;
+}
+
+#lsCustoms .main .menu {
+    display: flex;
+    overflow: hidden;
+}
+
+#lsCustoms .main .menu .item {
+    font-size: 3.33vh;
+    font-weight: 500;
+    /* height: 7vh; */
+    margin-bottom: auto;
+    margin-top: auto;
+    opacity: .5;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 33.3%;
+    /* overflow: hidden; */
+}
+
+#lsCustoms .main .menu .item:nth-child(2) {
+    opacity: 1;
+}
+
+#lsCustoms .price {
+    color: #8FFF4A;
+    font-weight: normal;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+#lsCustoms .main .menu .item .price {
+    font-size: 2.22vh;
+}
+
+#lsCustoms .slider {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    height: 5.55vh;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 95vh;
+    bottom: 20.18vh;
+}
+
+#lsCustoms .slider img {
+    margin: auto 1vh;
+    width: 3.5vh;
+}
+
+#lsCustoms .slider img:first-child {
+    transform: scale(-1);
+}
+
+#lsCustoms .slider .values {
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+#lsCustoms .slider .values .item {
+    font-size: 2vh;
+    margin-bottom: auto;
+    margin-top: auto;
+    opacity: .5;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 33.3%;
+}
+
+#lsCustoms .slider .values .item:nth-child(2) {
+    opacity: 1;
+}
+
+#lsCustoms .slider .values.color .item {
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 2.5vh;
+    margin: auto 1.4vh;
+    opacity: 1;
+    position: relative;
+    width: 2.5vh;
+}
+
+#lsCustoms .slider .values.color .item.select {
+    border: .2vh solid #2496FF;
+}
+
+#lsCustoms .slider .values .item .price {
+    font-size: 1.66vh;
+    top: -140%;
+    white-space: nowrap;
+}

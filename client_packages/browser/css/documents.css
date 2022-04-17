@@ -1,0 +1,196 @@
+#documents {
+    font-family: Roboto;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#documents .bar {
+    font-size: 1.3vh;
+    position: absolute;
+    top: 2.78vh;
+    transform: translate(-98%);
+}
+
+#documents .bar .item {
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: .7vh 0 0 .7vh;
+    color: white;
+    margin-bottom: .55vh;
+    margin-left: auto;
+    padding: .7vh 1.3vh;
+    width: fit-content;
+}
+
+#documents .bar .item.active {
+    background-color: #fff;
+    color: black;
+}
+
+#documents .bar .item:not(.active):hover {
+    color: rgba(255, 255, 255, .6);
+}
+
+#documents .card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 25.7vh;
+    width: 40.7vh;
+}
+
+#documents .card>div {
+    position: absolute;
+    left: 2.77vh;
+}
+
+#documents .card>div .head {
+    font-family: 'Roboto Condensed';
+    font-size: 1.3vh;
+    font-weight: bold;
+}
+
+#documents .card>div .value {
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+
+#documents .card>img {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#documents .card.idCard {
+    /* background-image: url("../img/documents/idCard.svg"); */
+}
+
+#documents .card.idCard .name {
+    top: 7.5vh;
+}
+
+#documents .card.idCard .surname {
+    top: 11.5vh;
+}
+
+#documents .card.idCard .sex {
+    top: 15.5vh;
+}
+
+#documents .card.idCard .issued {
+    top: 19.44vh;
+}
+
+#documents .card.idCard .expires {
+    left: 19.44vh;
+    top: 19.44vh;
+}
+
+#documents .card.idCard .cardNum {
+    left: 21.3vh;
+    top: 7.5vh;
+}
+
+#documents .card.medCard {
+    /* background-image: url("../img/documents/medCard.svg"); */
+}
+
+#documents .card.licenses>div,
+#documents .card.medCard>div {
+    display: flex;
+}
+
+#documents .card.licenses>div .head,
+#documents .card.medCard>div .head {
+    font-size: 1.5vh;
+}
+
+#documents .card.licenses>div .value,
+#documents .card.medCard>div .value {
+    font-size: 1.66vh;
+    margin-left: .37vh;
+    margin-top: -.05vh;
+}
+
+#documents .card.medCard .memberName {
+    top: 9.72vh;
+}
+
+#documents .card.medCard .memberId {
+    top: 12.4vh;
+}
+
+#documents .card.medCard .expires {
+    top: 15.1vh;
+}
+
+#documents .card.medCard .sign {
+    bottom: 1.5vh;
+    left: auto;
+    right: 2.78vh;
+}
+
+#documents .card.medCard .sign .value {
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    color: #003B95;
+    font-family: 'Rouge Script';
+    font-size: 2.22vh;
+    margin-top: -1vh;
+    text-align: center;
+    width: 9vh;
+}
+
+#documents .card.licenses {
+    /* background-image: url("../img/documents/licenses.svg"); */
+}
+
+#documents .card.licenses>div {
+    display: flex;
+}
+
+#documents .card.licenses>div .value {
+    margin-top: -.145vh;
+}
+
+#documents .card.licenses .id {
+    top: 11vh;
+}
+
+#documents .card.licenses .sex {
+    top: 13.8vh;
+}
+
+#documents .card.licenses .gunLic {
+    top: 16.57vh;
+}
+
+#documents .card.licenses .gunLic .value {
+    color: #003B95;
+}
+
+#documents .card.licenses .sign {
+    top: 20.93vh;
+}
+
+#documents .card.licenses .sign .value {
+    color: #003B95;
+    font-family: 'Rouge Script';
+    font-size: 2.22vh;
+}
+
+#documents .card.licenses .carClass {
+    top: 11vh;
+    left: 23.33vh;
+}
+
+#documents .card.licenses .carClass .value {
+    color: #003B95;
+    font-size: 1.5vh;
+    margin-top: 0;
+}
+
+#documents .card.licenses .carClass .value .disable {
+    opacity: .25;
+}

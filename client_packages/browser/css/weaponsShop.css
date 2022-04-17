@@ -1,0 +1,258 @@
+#weaponsShop {
+    background-color: rgba(13, 13, 13, 0.95);
+    color: #fff;
+    font-family: Roboto;
+    height: 78.14vh;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 123.88vh;
+    z-index: 999;
+}
+
+#weaponsShop .close {
+    display: flex;
+    position: absolute;
+    opacity: .5;
+    right: 0;
+    transform: translateY(-100%);
+}
+
+#weaponsShop .close:hover {
+    opacity: 1;
+}
+
+#weaponsShop .close img {
+    height: 5vh;
+}
+
+#weaponsShop .head {
+    background-color: rgba(131, 26, 26, 0.9);
+    box-shadow: 0px .37vh 1.85vh rgba(0, 0, 0, 0.15);
+    display: flex;
+    font-size: 1.66vh;
+    height: 8.51vh;
+    margin-top: 1.75vh;
+    width: 100%;
+}
+
+#weaponsShop .head>div {
+    margin: auto;
+    margin-right: 0;
+}
+
+#weaponsShop .head img {
+    height: 4.6vh;
+}
+
+#weaponsShop .head .logo {
+    margin-left: 3.7vh;
+}
+
+#weaponsShop .head .number {
+    font-size: 3.33vh;
+    margin-left: 2vh;
+}
+
+#weaponsShop .head .title {
+    margin-left: 1.3vh;
+    text-transform: uppercase;
+}
+
+#weaponsShop .head .menu {
+    display: flex;
+    margin-right: 3.7vh;
+}
+
+#weaponsShop .head .menu>div {
+    /* height: 4.9vh; */
+    padding: 1.48vh 2.77vh;
+    opacity: .6;
+}
+
+#weaponsShop .head .menu>div:hover {
+    opacity: 1;
+}
+
+#weaponsShop .head .menu .focus {
+    background: rgba(255, 255, 255, 0.15);
+    opacity: 1;
+}
+
+#weaponsShop .body {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    /* overflow: hidden; */
+}
+
+#weaponsShop .body .list {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 32.4vh);
+    grid-gap: 1.85vh;
+    height: 66vh;
+    padding: 1.76vh 2.77vh;
+    overflow-y: auto;
+}
+
+#weaponsShop .body .list>div {
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 22.22vh;
+}
+
+#weaponsShop .body .list>div:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#weaponsShop .body .list>div.focus {
+    background-color: #771818;
+}
+
+#weaponsShop .body>div .caliber {
+    color: rgba(255, 255, 255, .5);
+    display: flex;
+    font-size: 1.66vh;
+    margin: auto;
+    margin-right: 2.22vh;
+    margin-top: 1.66vh;
+    width: fit-content;
+}
+
+#weaponsShop .body>div .caliber span {
+    margin: auto;
+    margin-left: .9vh;
+}
+
+#weaponsShop .body>div .bullet img,
+#weaponsShop .body>div .caliber img {
+    height: 1.85vh;
+}
+
+#weaponsShop .body .list>div .img {
+    display: flex;
+    height: 10vh;
+    margin: 1vh auto;
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+#weaponsShop .body .list>div .img img {
+    /* height: 10vh; */
+    margin: auto;
+    max-height: 100%;
+    max-width: 80%;
+}
+
+#weaponsShop .body .list>div .info {
+    display: flex;
+    font-size: 2.22vh;
+    font-weight: bold;
+    padding: 2.5vh 2.22vh;
+}
+
+#weaponsShop .body .list>div .info .price {
+    color: #34DE78;
+    margin: auto;
+    margin-right: 0;
+}
+
+#weaponsShop .body .desc {
+    background-color: rgba(255, 255, 255, 0.05);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr;
+    height: 102.9%;
+}
+
+#weaponsShop .body .desc .img {
+    display: flex;
+    height: 20vh;
+}
+
+#weaponsShop .body .desc .img img {
+    margin: auto;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+#weaponsShop .body .desc .info {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0 3.7vh;
+}
+
+#weaponsShop .body .desc .info .title {
+    display: flex;
+    font-weight: bold;
+    margin-top: 3.14vh;
+}
+
+#weaponsShop .body .desc .info .title .name {
+    font-size: 3.33vh;
+}
+
+#weaponsShop .body .desc .info .title .price {
+    color: #34DE78;
+    font-size: 2.22vh;
+    margin: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+#weaponsShop .body .desc .info .caliber {
+    margin-left: 0;
+}
+
+#weaponsShop .body .desc .info .btn {
+    background-color: #831A1A;
+    font-size: 2.22vh;
+    margin-top: 2.4vh;
+    padding: 2.22vh 4.62vh;
+    width: fit-content;
+}
+
+#weaponsShop .body .desc .info .btn:hover {
+    background-color: #9F2121!important;
+}
+
+#weaponsShop .body .desc .info .bullet {
+    display: flex;
+    font-size: 1.66vh;
+    margin-top: 6.48vh;
+}
+
+#weaponsShop .body .desc .info .bullet img {
+    margin: 0 .9vh;
+}
+
+#weaponsShop .body .desc .info .bullet span {
+    color: #34DE78;
+}
+
+#weaponsShop .body .desc .info .btns {
+    display: flex;
+}
+
+#weaponsShop .body .desc .info .btns .btn {
+    background: none;
+    border: .37vh solid #831A1A;
+    box-sizing: border-box;
+    margin-right: .9vh;
+}
+
+#weaponsShop .body .desc .info .btns .btn:hover {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+#weaponsShop ::-webkit-scrollbar {
+    width: .55vh;
+}
+
+#weaponsShop ::-webkit-scrollbar-track {
+    box-shadow: none;
+    background-color: #0C0C0C;
+}
+
+#weaponsShop ::-webkit-scrollbar-thumb {
+    background-color: #747474;
+}

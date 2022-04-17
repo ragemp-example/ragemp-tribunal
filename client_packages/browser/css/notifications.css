@@ -1,0 +1,90 @@
+#notifications {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*height: 60%;*/
+    left: 2.6vh;
+    width: 29vh;
+    min-width: 15vh;
+    position: absolute;
+    bottom: 23.1%;
+    word-wrap: break-word;
+}
+
+#notifications .notif-box {
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    border-radius: 2.77vh;
+    display: flex;
+    margin-top: .6vh;
+    padding: 1.5vh;
+    width: 29vh;
+    position: absolute;
+    top:-100%;
+}
+
+#notifications .notif-box:nth-last-child(-n + 8) { /*maxCount+1*/
+    position: relative!important;
+}
+
+#notifications>div img {
+    margin: auto 0;
+    margin-right: 1vh;
+    width: 2.77vh;
+}
+
+#notifications>div .message {
+    margin-top: .4vh;
+}
+
+#notifications .error {
+    background: rgba(24, 0, 0, 0.5);
+}
+
+#notifications .error .header {
+    color: #FF7A7A;
+}
+
+#notifications .info {
+    background: rgba(0, 20, 24, 0.5);
+}
+
+#notifications .info .header {
+    color: #7AE7FF;
+}
+
+#notifications .success {
+    background: rgba(5, 24, 0, 0.5);
+}
+
+#notifications .success .header {
+    color: #7DFF7A;
+}
+
+#notifications .warning {
+    background: rgba(24, 14, 0, 0.5);
+}
+
+#notifications .warning .header {
+    color: #FFCA7A;
+}
+
+
+
+.notif-enter-active {
+  transition: all 0.25s;
+  margin-left: 0;
+}
+.notif-enter {
+  margin-left: 100%;
+}
+
+.notif-leave-active {
+  transition: all 0.5s;
+  margin-left: -100%;
+}
+
+.notif-leave {
+  margin-left: 0;
+}

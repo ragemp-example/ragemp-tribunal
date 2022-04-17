@@ -1,0 +1,184 @@
+#shop {
+    background-image: linear-gradient(122.33deg, rgba(255, 66, 247, 0.08) 0%, rgba(255, 66, 247, 0) 69.38%), linear-gradient(287.89deg, rgba(36, 150, 255, 0.08) 0%, rgba(36, 150, 255, 0) 86.36%), linear-gradient(106.73deg, #1C1C1C 0.01%, rgba(19, 19, 19, 0.96) 38.95%, rgba(31, 31, 31, 0.98) 100%);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: Roboto;
+    height: 62.68vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 108.3vh;
+    z-index: 99999999999;
+}
+
+#shop .close {
+    display: flex;
+    position: absolute;
+    opacity: .5;
+    right: 0;
+    transform: translateY(-100%);
+}
+
+#shop .close:hover {
+    opacity: 1;
+}
+
+#shop .close img {
+    height: 5vh;
+}
+
+#shop .main {
+    display: grid;
+    grid-template-rows: 10.46vh 1fr;
+    height: 100%;
+}
+
+#shop .main .head {
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px .18vh .37vh rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    /* height: 10.46vh; */
+    padding: 0 4.7vh;
+}
+
+#shop .main .head>div {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 2.2vh;
+    font-weight: 500;
+    margin: auto 0;
+}
+
+#shop .main .head .logo img {
+    height: 4.72vh;
+}
+
+#shop .main .body {
+    display: grid;
+    grid-template-columns: 21.57vh 1fr;
+    height: 100%;
+}
+
+#shop .main .body .bar {
+    /* width: 21.57vh; */
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+#shop .main .body .bar .item {
+    display: flex;
+    height: 7.2vh;
+}
+
+#shop .main .body .bar .item.focus {
+    background-image: linear-gradient(90.81deg, rgba(36, 150, 255, 0.8) 0.01%, #2496FF 50.52%, rgba(36, 150, 255, 0.4) 100%);
+
+}
+
+#shop .main .body .bar .item img {
+    height: 3.3vh;
+    margin: auto;
+    margin-left: 2.87vh;
+    margin-right: 0;
+    /* filter: invert(1); */
+    /* opacity: .75; */
+}
+
+#shop .main .body .bar .item.focus img {
+    /* filter: invert(0); */
+    /* opacity: 1; */
+}
+
+#shop .main .body .bar .item>div {
+    color: #fff;
+    font-size: 1.66vh;
+    margin: auto;
+    margin-left: 2.03vh;
+}
+
+#shop .main .body .bar .item.focus>div {
+    font-weight: 500;
+}
+
+#shop .main .body .content {
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: 51.9vh;
+    padding: 2.77vh;
+}
+
+#shop .main .body .content .items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.85vh;
+}
+
+#shop .main .body .content .items .item {
+    background-image: linear-gradient(122.33deg, rgba(255, 66, 247, 0.08) 0%, rgba(255, 66, 247, 0) 69.38%), linear-gradient(287.89deg, rgba(36, 150, 255, 0.08) 0%, rgba(36, 150, 255, 0) 86.36%), linear-gradient(106.73deg, rgba(0, 0, 0, 0.76) 0.01%, rgba(0, 0, 0, 0.72) 38.95%, rgba(0, 0, 0, 0.68) 100%);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    display: grid;
+    filter: drop-shadow(0px .37vh .92vh rgba(0, 0, 0, 0.08));
+    grid-template-rows: min-content min-content 1fr min-content;
+    height: 35.3vh;
+    padding: 2.3vh;
+    /* width: 25.92vh; */
+}
+
+#shop .main .body .content .items .item img {
+    height: 7.68vh;
+    margin: 0 auto;
+}
+
+#shop .main .body .content .items .item .name {
+    font-size: 1.8vh;
+    font-weight: 900;
+    margin-top: 2.59vh;
+    text-transform: uppercase;
+}
+
+#shop .main .body .content .items .item .desc {
+    font-size: 1.66vh;
+    margin-top: .37vh;
+    overflow-y: auto;
+}
+
+#shop .main .body .content .items .item .price {
+    color: #A3FF5B;
+    font-size: 2.22vh;
+    font-weight: 900;
+    margin: 1.66vh 0;
+}
+
+#shop .main .body .content .items .item .btn {
+    background-image: linear-gradient(106.73deg, rgba(0, 0, 0, 0.24) 0.01%, rgba(0, 0, 0, 0.32) 33.33%, rgba(0, 0, 0, 0) 100%);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    font-size: 1.66vh;
+    height: 5.64vh;
+    line-height: 5.64vh;
+    margin: auto;
+    text-align: center;
+    width: 16.57vh;
+}
+
+#shop .main .body .content .items .item .btn:hover {
+    background-image: linear-gradient(90.81deg, rgba(36, 150, 255, 0.8) 0.01%, #2496FF 50.52%, rgba(36, 150, 255, 0.4) 100%);
+}
+
+#shop ::-webkit-scrollbar {
+    width: .55vh;
+}
+
+#shop ::-webkit-scrollbar-track {
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#shop ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+}

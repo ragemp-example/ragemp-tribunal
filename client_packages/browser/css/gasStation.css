@@ -1,0 +1,91 @@
+#gasStation {
+    background-image: url("../img/gasStation/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    color: #505050;
+    font-family: Roboto;
+    height: 40.55vh;
+    padding: 3.5vh 4.35vh 4.72vh 4.35vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 76.2vh;
+    z-index: 999;
+}
+
+#gasStation .close {
+    display: flex;
+    position: absolute;
+    opacity: .5;
+    right: 0;
+    transform: translateY(-170%);
+}
+
+#gasStation .close:hover {
+    opacity: 1;
+}
+
+#gasStation .close img {
+    height: 5vh;
+}
+
+#gasStation .main .title {
+    color: #fff;
+    font-size: 2.7vh;
+    font-weight: 700;
+}
+
+#gasStation .main .hint {
+    color: rgba(255, 255, 255, .5);
+    font-size: 1.66vh;
+    margin-top: 2.68vh;
+}
+
+#gasStation .main input {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: none;
+    color: white;
+    font-size: 1.66vh;
+    font-family: Roboto;
+    margin-top: 1.29vh;
+    outline: none;
+    padding: 1.85vh;
+    width: 25.44vh;
+}
+
+#gasStation .main input::-webkit-outer-spin-button,
+#gasStation .main input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#gasStation .main .hint2 {
+    font-size: 2.22vh;
+    margin-top: 2.68vh;
+}
+
+#gasStation .main .price {
+    color: #A3FF5B;
+    font-size: 3.1vh;
+    font-weight: 900;
+}
+
+#gasStation .main .btns {
+    display: flex;
+    margin-top: 1.94vh;
+}
+
+#gasStation .main .btns .btn {
+    color: #fff;
+    background-color: #0D0D0D;
+    font-size: 1.66vh;
+    margin-right: 1vh;
+    padding: 1.85vh 5.55vh;
+}
+
+#gasStation .main .btns .btn:hover {
+    background-color: #2496FF;
+}

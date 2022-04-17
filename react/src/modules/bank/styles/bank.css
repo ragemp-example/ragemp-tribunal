@@ -1,0 +1,361 @@
+.main-form-bank {
+    position: absolute;
+    font-family: bank-font;
+    font-size: 100%;
+    width: 80vh;
+    height: 48vh;
+    background: white;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1800px;
+    max-height: 1000px;
+    min-width: 300px;
+    min-height: 150px;
+    animation: show-react 0.05s ease-in-out;
+}
+
+.answer_form-bank-react {
+    position: absolute;
+    font-family: bank-font;
+    font-size: 100%;
+    width: 80vh;
+    height: 48vh;
+    background: rgba(15, 15, 15, 0.64);
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1800px;
+    max-height: 1000px;
+    min-width: 300px;
+    min-height: 150px;
+    animation: show-react .05s ease-in-out;
+}
+
+.answer_ico-bank-react {
+    display: inline-block;
+    width: 17%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.answer_text-bank-react {
+    display: inline-block;
+    width: 50%;
+    float: top;
+    position: absolute;
+    margin-left: 7%;
+    top: 33%;
+    color: white;
+    font-size: 350%;
+}
+
+.answer_form-bank-react svg {
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+.answer_form-bank-react span {
+    color: white;
+    font-size: 400%;
+}
+
+.info_panel-bank-react {
+    width: 25%;
+    background: #00932B;
+    display: inline-block;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+    padding: 2%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.account_name-bank-react {
+    width: 96%;
+}
+
+.account_name-bank-react div {
+    position: absolute;
+    margin-left: 2%;
+    display: inline-block;
+    overflow-wrap: break-word;
+    width: 14%;
+    font-size: 130%;
+}
+
+.info_panel_fields-bank-react {
+    margin-top: 20%;
+}
+
+.info_panel_field-bank-react {
+    width: 90%;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-bottom: 10%;
+    padding: 8% 5% 2% 5%;
+    text-align: center;
+    font-size: 170%;
+}
+
+.info_panel_field-bank-react div {
+    font-size: .60em;
+    text-align: right;
+    margin-top: 2%;
+}
+
+.info_panel_field-bank-react svg {
+    margin-left: 5%;
+    margin-top: 1%;
+    float: right;
+}
+
+.logo-bank-react {
+    width: 75%;
+    position: absolute;
+    margin-top: 3%;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo-bank-react img {
+    object-fit: cover;
+    width: 45%;
+}
+
+.page-bank-react {
+    margin-top: 15%;
+    height: 70%;
+    width: 75%;
+    position: absolute;
+    display: inline-block;
+    background: white;
+    text-align: center;
+    animation: show-react .05s;
+}
+
+.buttons_menu-bank-react {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.button_menu-bank-react {
+    width: 20%;
+    text-align: center;
+    padding: 3%;
+    border-radius: 10px;
+    border: 1px solid rgb(182, 182, 182);
+    display: inline-block;
+    margin: 3%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    transition: .1s ease-in-out;
+}
+
+.button_menu-bank-react svg {
+    margin-bottom: 3%;
+}
+
+.button_menu-bank-react:hover {
+    background: #00932B;
+    fill: white;
+    color: white;
+    border-color: #00932B;
+    transform: scale(1.05);
+}
+
+.page_title-bank-react {
+    text-align: center;
+    font-size: 160%;
+}
+
+.push_block-bank-react {
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 40%;
+    /*background: #343c47;*/
+    font-size: 130%;
+}
+
+.input-bank-react {
+    outline: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 3%;
+    width: 80%;
+    /*height: 4%;*/
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #a5a5a5;
+    border-right: none;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.28);
+    font-size: 75%;
+}
+
+.button_input-bank-react {
+    outline: none;
+    background: #00932B;
+    margin-bottom: 5%;
+    color: white;
+    padding: 3%;
+    width: 15%;
+    height: 4%;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #00932B;
+    border-left: none;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.28);
+    font-size: 75%;
+}
+
+.buttons_panel-bank-react {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.button_panel-bank-react {
+    outline: none;
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+    background:
+
+        transparent;
+    padding: 4% 7%;
+    color: black;
+    transition: .1s ease-in-out;
+    font-size: 90%;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.28);
+}
+
+.button_panel-bank-react:hover {
+    background: #00932B;
+    color: white;
+    border-color: #00932B;
+}
+
+.taxes_back-bank-react {
+    width: 96%;
+    height: 90%;
+    margin-left: 2%;
+    font-size: 100%;
+    /*background: #2e2e2e;*/
+}
+
+.taxes_block-bank-react {
+    position: absolute;
+    width: 40%;
+    height: 85%;
+    padding: 2% 3% 2% 3%;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.28);
+}
+
+.taxes_block-bank-react span {
+    /*margin-bottom: 10%;*/
+}
+
+.taxes_info-bank-react {
+    margin-top: 6%;
+    font-size: 120%;
+}
+
+.taxes_info-bank-react div {
+    margin-bottom: 2%;
+}
+
+.button_taxes-bank-react {
+    background: transparent;
+    color: black;
+    transition: .1s ease-in-out;
+    padding: 1% 5% 3% 5%;
+    margin: 5%;
+    border-radius: 30px;
+    border: 1px solid #00932B;
+}
+
+.button_taxes-bank-react:hover {
+    background: #00932B;
+    color: white;
+    border: 1px solid #00932B;
+}
+
+.button_pay_taxes-bank-react {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #00932B;
+    color: white;
+    padding: 5% 4%;
+    font-size: 90%;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.28);
+    transition: .1s ease-in-out;
+    animation: show-react .05s ease-in-out;
+}
+
+.button_pay_taxes-bank-react:hover {
+    transform: scale(1.05);
+}
+
+.cashbox_back-bank-react {
+    /*width: 90%;*/
+    /*margin-left: 5%;*/
+    margin-top: 5%;
+    /*background: #3a3a39;*/
+}
+
+.cashbox_block-bank-react {
+    width: 100%;
+    padding: 15% 5%;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    font-size: 110%;
+    display: inline-block;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.28);
+}
+
+.cashbox_block-bank-react input {
+    width: 70%;
+    padding: 5% 4%;
+    /*margin-left: -5%;*/
+}
+
+.cashbox_block-bank-react button {
+    padding: 5%;
+}
+
+.info_block_confirm-bank-react {
+    width: 120%;
+    margin-left: -10%;
+    border: 1px solid #a5a5a5;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.28);
+    padding: 5%;
+    box-sizing: border-box;
+    font-size: 100%;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.info_block_confirm-bank-react div {
+    margin-bottom: 3%;
+}

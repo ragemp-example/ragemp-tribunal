@@ -1,0 +1,86 @@
+#driverLicense {
+    background: #cfe5e7;
+    background-image: url(../img/driverLicense/bg.png);
+    background-size: cover;
+    border-radius: 1vh;
+    box-shadow: 0px 0px 10px #0008;
+    font-family: Montserrat;
+    font-size: 1.4vh;
+    left: 50%;
+    padding: 0.5vh;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vh;
+}
+
+#driverLicense .close {
+    font-family: monospace;
+    font-size: 3vh;
+    position: absolute;
+    right: 1vh;
+}
+
+#driverLicense .close:hover {
+    color: red;
+}
+
+#driverLicense .content {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    /* margin: 7vh 0; */
+    margin-bottom: 3vh;
+}
+
+#driverLicense .content h3 {
+    font-size: 2vh;
+    margin-top: 6vh;
+    text-transform: uppercase;
+}
+
+#driverLicense .content .infoA {
+    width: fit-content;
+}
+
+#driverLicense .content .infoB {
+    line-height: 3vh;
+    margin-top: 6vh;
+    text-align: right;
+    width: 15vh;
+}
+
+#driverLicense .content .infoB img {
+    height: 2.5vh;
+    margin-left: 1vh;
+}
+
+#driverLicense .content .infoB .category {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#driverLicense .content .infoB .category.active {
+    color: #008b1a;
+}
+
+#driverLicense .content .infoB .label {
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+}
+
+#driverLicense .header {
+    text-align: center;
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+
+#driverLicense .label {
+    text-transform: uppercase;
+}
+
+#driverLicense .value {
+    font-weight: bold;
+    margin-bottom: 1vh;
+}

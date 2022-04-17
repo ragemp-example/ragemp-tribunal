@@ -1,0 +1,355 @@
+
+#map-case.pd .verification .btns .btn {
+    color: #1A4ED2;
+}
+
+#map-case.pd .window .permissions .body .cat,
+#map-case.pd .verification .btns .btn:active {
+    background-color: #1A4ED2;
+    color: #fff;
+}
+
+#map-case.pd .body .back svg {
+    fill: #1A4ED2;
+}
+
+#map-case.pd .screen {
+    background-image: linear-gradient(180deg, #1A4ED2 14.17%, rgba(0,0,0,0) 14.17%);
+}
+
+#map-case.pd .window .permission-tab .title>span>a,
+#map-case.pd .screen .menu {
+    color: #1A4ED2;
+}
+
+#map-case.pd .menu .list .item.focus {
+    background-color: #1A4ED2;
+}
+
+#map-case .pd .menu .menu-body .menu-item div {
+    pointer-events: none;
+}
+
+#map-case .window .dbSearch .logo {
+    margin: 0 auto;
+    width: min-content;
+}
+
+#map-case .window .dbSearch .logo img {
+    margin-top: 4.35vh;
+    width: 5.55vh;
+}
+
+#map-case .window .dbSearch .title {
+    margin: 1vh auto;
+    width: min-content;
+}
+
+#map-case .window .dbSearch .title img {
+    height: 3.88vh;
+}
+
+#map-case .window .dbSearch .dbSearch-menu {
+    display: flex;
+    margin: 1.3vh auto;
+    width: fit-content;
+}
+
+#map-case .window .dbSearch .dbSearch-menu>div {
+    border: .2vh solid;
+    border-radius: 8.3vh;
+    font-size: 1.3vh;
+    font-weight: 500;
+    margin: 0 .5vh;
+    padding: 1vh 3.33vh;
+}
+
+#map-case.pd .window .storage .btn,
+#map-case.pd .window .dbSearch .search,
+#map-case.pd .window .dbSearch .dbSearch-menu>div {
+    color: #1A4ED2;
+}
+
+#map-case.pd .board .title .filter .check-box::after,
+#map-case.pd .window .dbSearch .dbSearch-menu>div.focus {
+    color: #fff;
+    background-color: #1A4ED2;
+}
+
+#map-case .window .dbSearch input {
+    background-color: #E7E7E7;
+    border: none;
+    border-radius: 2.3vh;
+    color: #000;
+    display: block;
+    font-size: 1.5vh;
+    margin: 0 auto;
+    outline: none;
+    padding: 1.3vh 2vh;
+    width: 52vh;
+}
+
+#map-case.pd .window .storage .btn:active,
+#map-case.pd .window .dbSearch .search:active {
+    color: #fff;
+    background-color: #1A4ED2;
+}
+
+#map-case .window .dbResult .table .head,
+#map-case .window .dbResult .table .body .record {
+    grid-template-columns: 7.4vh 25.7vh 18.5vh 1fr;
+}
+
+#map-case.pd .window .dbResult .table .body .record:active {
+    background-color: #1A4ED2;
+    color: #fff;
+}
+
+#map-case .window .wanted .table .head,
+#map-case .window .wanted .table .body .record {
+    grid-template-columns: 7.4vh 25.7vh 18.5vh 1fr;
+}
+
+#map-case .over .stars,
+#map-case .profile .stars,
+#map-case .table .body .record .stars {
+    display: flex;
+}
+
+#map-case .over .stars svg,
+#map-case .profile .stars svg,
+#map-case .table .body .record .stars svg {
+    height: 2.4vh;
+    margin: auto;
+    margin-right: .74vh;
+}
+
+#map-case.pd .over .stars svg,
+#map-case.pd .profile .stars svg,
+#map-case.pd .table .body .record .stars svg {
+    fill: rgba(26, 78, 210, 0.2);
+}
+
+#map-case .table .body .record:active .stars svg {
+    fill: rgba(255, 255, 255, 0.2)!important;
+}
+
+#map-case.pd .over .stars svg.fill,
+#map-case.pd .profile .stars svg.fill,
+#map-case.pd .table .body .record .stars svg.fill {
+    fill: #1A4ED2;
+}
+
+#map-case .table .body .record:active .stars svg.fill {
+    fill: #fff!important;
+}
+
+#map-case.pd .table .record.focus,
+#map-case.pd .table .record:active {
+    background-color: #1A4ED2!important;
+    color: #fff;
+}
+
+#map-case.pd .window .board .table .record .btn {
+    background-color: #1A4ED2;
+}
+
+#map-case.pd .window .board .table .record:active .btn,
+#map-case.pd .window .board .table .record.focus .btn,
+#map-case.pd .window .board .table .record .btn:active {
+    background-color: #fff;
+    box-shadow: inset 0px .18vh .74vh rgba(0, 0, 0, 0.25);
+    color: #1A4ED2;
+}
+
+#map-case .window .board .table .record.focus .btn svg {
+    transform: scale(-1);
+}
+
+#map-case.pd .window .board .table .record:active .btn svg path,
+#map-case.pd .window .board .table .record.focus .btn svg path,
+#map-case.pd .window .board .table .record .btn:active svg path {
+    fill: #1A4ED2;
+    fill-opacity: 1;
+}
+
+#map-case.pd .window .members .action-modal {
+    color: #1A4ED2;
+}
+
+#map-case.pd .window .members .action-modal .btn:active {
+    background-color: #1A4ED2;
+    color: #fff;
+}
+
+#map-case .window .identification .logo img {
+    width: 15vh!important;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+#map-case .window .profile {
+    position: relative;
+}
+
+#map-case .window .profile .title {
+    font-size: 2.22vh;
+    font-weight: bold;
+    margin-bottom: 1.66vh;
+    margin-left: .65vh;
+    margin-top: 1vh;
+}
+
+#map-case .window .profile .main-info {
+    background-color: #E8E8E8;
+    padding: 1.2vh 2.77vh;
+    max-width: 45vh;
+    width: fit-content;
+    text-overflow: ellipsis;
+}
+
+#map-case .window .profile .main-info .name {
+    display: inline-flex;
+    font-size: 2.22vh;
+    margin: .6vh 0;
+    margin-right: 1.85vh;
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    max-width: 30vh;
+}
+
+#map-case .window .profile .main-info .danger {
+    background-color: #fff;
+    color: #878787;
+    display: inline;
+    font-weight: 500;
+    padding: 0.9vh;
+}
+
+#map-case .window .profile .main-info .danger.red {
+    color: #FF0000;
+}
+
+#map-case .window .profile .main-info .id {
+    color: #878787;
+    margin-top: .5vh;
+}
+
+#map-case .window .profile .info-title {
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+#map-case .window .profile .info {
+    display: grid;
+    grid-column-gap: 1.85vh;
+    grid-row-gap: 1.3vh;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.3vh;
+    width: 37vh;
+}
+
+#map-case .window .profile .info .record.veh {
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+}
+
+#map-case .window .profile .info .head {
+    color: #878787;
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+
+#map-case .window .profile .right-panel {
+    position: absolute;
+    right: 0;
+    top: 5vh;
+}
+
+#map-case .window .profile .right-panel .btn {
+    border: .2vh solid;
+    border-radius: 8.3vh;
+    font-size: 1.85vh;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    padding: 1vh 3.33vh;
+    text-align: center;
+    width: 16vh;
+}
+
+#map-case.pd .window .profile .right-panel .btn {
+    color: #1A4ED2;
+}
+
+#map-case.pd .window .profile .right-panel .btn:active {
+    background-color: #1A4ED2;
+    color: #fff;
+}
+
+#map-case .window .profile .right-panel .danger {
+    float: right;
+    font-size: 1.5vh;
+    max-width: 20vh;
+    text-align: right;
+}
+
+#map-case .window .profile .right-panel .stars svg {
+    margin: 1vh .8vh;
+}
+
+#map-case.pd .calls .body .call .dist,
+#map-case.pd .calls .body .call .btn {
+    color: #1A4ED2;
+}
+
+#map-case.pd .calls .body .call .btn:active {
+    background-color: #1A4ED2;
+    color: #fff;
+}
+
+
+#map-case .over {
+    width: 45%;
+    padding: 2.77vh 3.14vh;
+}
+
+#map-case .over .header {
+    font-size: 2.2vh;
+    font-weight: bold;
+    /* margin: 0 3vh; */
+    text-align: left;
+}
+
+#map-case .over .title {
+    text-align: left;
+    font-weight: 500;
+    margin: 2vh 0 0.5vh 0;
+}
+
+#map-case .over .input {
+    text-align: center;
+}
+
+#map-case .over input {
+    display: block;
+    background-color: #DEDEDE;
+    border: none;
+    border-radius: 0.9vh;
+    font-size: 1.66vh;
+    outline: none;
+    padding: 1.2vh;
+    width: 85%;
+}
+
+#map-case .over .btns {
+    margin-top: 2vh;
+    white-space: nowrap;
+}
+
+#map-case .over .stars {
+    margin-top: .5vh;
+}
+
+#map-case .over .stars svg {
+    margin: 0 0.2vh;
+}

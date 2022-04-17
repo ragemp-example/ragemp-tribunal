@@ -1,0 +1,148 @@
+#map-case.wnews .window .storage .btn,
+#map-case.wnews .window .permission-tab .title>span>a,
+#map-case.wnews .verification .btns .btn {
+    color: #CD2626;
+}
+
+#map-case.wnews .window .storage .btn:active,
+#map-case.wnews .board .title .filter .check-box::after,
+#map-case.wnews .window .permissions .body .cat,
+#map-case.wnews .verification .btns .btn:active {
+    background-color: #CD2626;
+    color: #fff;
+}
+
+#map-case.wnews .body .back svg {
+    fill: #CD2626;
+}
+
+#map-case.wnews .screen {
+    background-image: linear-gradient(180deg, #CD2626 14.17%, rgba(0,0,0,0) 14.17%);
+}
+
+#map-case.wnews .screen .menu {
+    color: #CD2626;
+}
+
+#map-case.wnews .menu .list .item.focus {
+    background-color: #CD2626;
+}
+
+#map-case.wnews .board.members .table .record.focus,
+#map-case.wnews .table .record:active {
+    background-color: #CD2626!important;
+    color: #fff;
+}
+
+#map-case.wnews .window .board .table .record .btn {
+    background-color: #CD2626;
+}
+
+#map-case.wnews .window .board .table .record:active .btn,
+#map-case.wnews .window .board .table .record.focus .btn,
+#map-case.wnews .window .board .table .record .btn:active {
+    background-color: #fff;
+    box-shadow: inset 0px .18vh .74vh rgba(0, 0, 0, 0.25);
+    color: #CD2626;
+}
+
+#map-case.wnews .window .board .table .record:active .btn svg path,
+#map-case.wnews .window .board .table .record.focus .btn svg path,
+#map-case.wnews .window .board .table .record .btn:active svg path {
+    fill: #CD2626;
+    fill-opacity: 1;
+}
+
+#map-case.wnews .window .members .action-modal {
+    color: #CD2626;
+}
+
+#map-case.wnews .window .members .action-modal .btn:active {
+    background-color: #CD2626;
+    color: #fff;
+}
+
+#map-case.wnews .window .ads .hint {
+    color: #CD2626;
+    display: flex;
+    font-size: 2.22vh;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 7vh;
+    width: fit-content;
+}
+
+#map-case.wnews .window .ads .hint>div {
+    margin: auto;
+    margin-left: 1vh;
+}
+
+#map-case.wnews .window .ads .hint span {
+    font-size: 2em;
+}
+
+#map-case .over.ads .btn,
+#map-case.wnews .window .ads .btn {
+    border: .2vh solid #CD2626;
+    border-radius: .9vh;
+    color: #CD2626;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 1vh;
+    padding: 2vh 3.14vh;
+    width: fit-content;
+}
+
+#map-case .over.ads .btns .btn:active,
+#map-case.wnews .window .ads .btn:active {
+    background-color: #CD2626;
+    color: #fff;
+}
+
+#map-case .over.ads {
+    box-sizing: border-box;
+    width: 57vh!important;
+}
+
+#map-case .over.ads .title {
+    font-weight: bold;
+    font-size: 2.22vh;
+    margin-top: 0;
+}
+
+#map-case .over.ads .hint {
+    color: #414141;
+    font-size: 1.66vh;
+    font-weight: 500;
+    margin-bottom: .5vh;
+    margin-top: 1.76vh;
+}
+
+#map-case .over.ads textarea {
+    background-color: #DEDEDE;
+    border: .2vh solid #fff0;
+    border-radius: .9vh;
+    box-sizing: border-box;
+    font-size: 1.85vh;
+    font-family: Roboto;
+    height: 18vh;
+    padding: 1.4vh;
+    width: 100%;
+}
+
+#map-case .over.ads textarea:focus {
+    border: .2vh solid #ABABAB;
+    outline: none;
+}
+
+#map-case .over.ads textarea:disabled {
+    background-color: #CDCDCD;
+}
+
+#map-case .over.ads .btns {
+    display: flex;
+}
+
+#map-case .over.ads .btns .btn {
+    padding: 1.38vh 2.22vh;
+}

@@ -1,0 +1,61 @@
+#infoTable {
+    background: rgba(28, 35, 41, 0.66);
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px #0008;
+    font-family: Montserrat;
+    left: 10vh;
+    position: absolute;
+    top: 30%;
+    transform: rotateY(10deg);
+    width: 36vh;
+}
+
+#infoTable .content {
+    color: #fff;
+    padding: 3vh;
+}
+
+#infoTable .content .param {
+    display: flex;
+    justify-content: space-between;
+}
+
+#infoTable .content .param .value.empty {
+    color: #aaa;
+}
+
+#infoTable .content .param .value.full {
+    color: #2496FF;
+}
+
+#infoTable .content .progress {
+    background: #fff;
+    border-radius: 15px;
+    height: 1vh;
+    margin-top: 0.5vh;
+    width: 100%;
+}
+
+#infoTable .content .progress .fill {
+    background: #2496FF;
+    border-radius: 10px;
+    height: 100%;
+    transition: width 1s;
+}
+
+#infoTable .content .progress .fill.full {
+    box-shadow: 0 0 10px rgba(255, 66, 247, 0.54);
+}
+
+#infoTable .content .row {
+    margin-bottom: 2vh;
+}
+
+#infoTable .header {
+    background: #FF42F7;
+    border-radius: 20px 20px 0 0;
+    font-size: 1.7vh;
+    font-weight: bold;
+    padding: 1.5vh;
+    text-align: center;
+}

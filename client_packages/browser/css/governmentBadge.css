@@ -1,0 +1,68 @@
+#governmentBadge {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto;
+    font-size: 1.7vh;
+    height: 32vh;
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 104.6vh;
+}
+
+#governmentBadge.fib {
+    background-image: url("../img/governmentBadge/FBI.png");
+}
+
+#governmentBadge.lspd {
+    background-image: url("../img/governmentBadge/LSPD.png");
+}
+
+#governmentBadge.sheriff {
+    background-image: url("../img/governmentBadge/Sheriff.png");
+}
+
+#governmentBadge.gover {
+    background-image: url("../img/governmentBadge/gover.png");
+}
+
+#governmentBadge.army {
+    background-image: url("../img/governmentBadge/army.png");
+}
+
+#governmentBadge .info {
+    position: absolute;
+    left: 59.8%;
+    text-transform: uppercase;
+    top: 45%;
+}
+
+#governmentBadge .info .record {
+    display: flex;
+    margin-bottom: 1vh;
+}
+
+#governmentBadge .info .record .head {
+    font-weight: 900;
+}
+
+#governmentBadge .info .record .value {
+    margin-left: .5vh;
+}
+
+#governmentBadge .sign {
+    bottom: 20%;
+    color: #003B95;
+    font-family: 'Rouge Script';
+    font-size: 2em;
+    position: absolute;
+    right: 7%;
+}
+
+#governmentBadge .sign.director {
+    bottom: 20%;
+    left: 34%;
+    transform: translate(-50%);
+    width: fit-content;
+}

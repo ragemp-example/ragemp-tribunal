@@ -1,0 +1,67 @@
+#map-case.gover .verification .btns .btn {
+    color: #0488B1;
+}
+
+#map-case.gover .window .permissions .body .cat,
+#map-case.gover .verification .btns .btn:active {
+    background-color: #0488B1;
+    color: #fff;
+}
+
+#map-case.gover .body .back svg {
+    fill: #0488B1;
+}
+
+#map-case.gover .screen {
+    background-image: linear-gradient(180deg, #0488B1 14.17%, rgba(0,0,0,0) 14.17%);
+}
+
+#map-case.gover .window .storage .btn,
+#map-case.gover .window .permission-tab .title>span>a,
+#map-case.gover .screen .menu {
+    color: #0488B1;
+}
+
+#map-case.gover .menu .list .item.focus {
+    background-color: #0488B1;
+}
+
+#map-case.gover .window .storage .btn:active,
+#map-case.gover .board .title .filter .check-box::after,
+#map-case.gover .board.members .table .record.focus,
+#map-case.gover .table .record:active {
+    background-color: #0488B1!important;
+    color: #fff;
+}
+
+#map-case.gover .window .board .table .record .btn {
+    background-color: #0488B1;
+}
+
+#map-case.gover .window .board .table .record:active .btn,
+#map-case.gover .window .board .table .record.focus .btn,
+#map-case.gover .window .board .table .record .btn:active {
+    background-color: #fff;
+    box-shadow: inset 0px .18vh .74vh rgba(0, 0, 0, 0.25);
+    color: #0488B1;
+}
+
+#map-case .window .board .table .record.focus .btn svg {
+    transform: scale(-1);
+}
+
+#map-case.gover .window .board .table .record:active .btn svg path,
+#map-case.gover .window .board .table .record.focus .btn svg path,
+#map-case.gover .window .board .table .record .btn:active svg path {
+    fill: #0488B1;
+    fill-opacity: 1;
+}
+
+#map-case.gover .window .members .action-modal {
+    color: #0488B1;
+}
+
+#map-case.gover .window .members .action-modal .btn:active {
+    background-color: #0488B1;
+    color: #fff;
+}

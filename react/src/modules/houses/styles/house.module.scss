@@ -1,0 +1,202 @@
+$color-green: #34DE78;
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.back {
+  position: absolute;
+  font-family: Roboto;
+  width: 50vh;
+  height: 38vh;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  min-width: 300px;
+  min-height: 150px;
+  background: linear-gradient(122.33deg, rgba(255, 66, 247, 0.08) 0%, rgba(255, 66, 247, 0) 69.38%), linear-gradient(287.89deg, rgba(36, 150, 255, 0.08) 0%, rgba(36, 150, 255, 0) 86.36%), linear-gradient(106.73deg, #1C1C1C 0.01%, rgba(19, 19, 19, 0.96) 38.95%, rgba(31, 31, 31, 0.98) 100%);
+  color: white;
+  backdrop-filter: blur(3px);
+  animation: show-react 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.backBiz {
+  height: 35vh;
+}
+
+.exit {
+  position: absolute;
+  top: -2.5em;
+  right: 0;
+  color: white;
+  opacity: 0.5;
+  transition: 0.15s ease-in-out;
+  font-size: 0.75em;
+
+  & span {
+    font-size: 1.2em;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.8em 1.5em;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+
+  & b {
+    font-weight: 500;
+  }
+}
+
+.price {
+  color: $color-green;
+  font-weight: 500;
+}
+
+.info {
+  padding: 0em 3em 2em 3em;
+
+  & h1 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 1em;
+  }
+}
+
+.fields {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1em;
+
+  & .field {
+    & label {
+      display: block;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.8em;
+      margin-bottom: 0.3em;
+    }
+    & span {
+      //font-weight: 300;
+      & span {
+        color: $color-green;
+      }
+    }
+  }
+}
+
+.actions {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1em;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  width: 100%;
+  padding: 1em 1em;
+  box-sizing: border-box;
+  transition: 0.15s ease-in-out;
+  color: white;
+
+  & img {
+    width: 25%;
+  }
+
+  & div {
+    margin-top: 0.5em;
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+  }
+}
+
+.message {
+  position: absolute;
+  width: 20em;
+  height: 38vh;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 2% 1%;
+  padding-top: 6em;
+  box-sizing: border-box;
+  border-radius: 0.8vw;
+  font-family: Roboto;
+  animation: show 0.25s ease-in-out;
+
+  & img {
+    width: 3em;
+  }
+}
+
+.messageButtons {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+
+  & div {
+    padding: 0.8em 2.2em;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+
+    &:hover {
+      background: linear-gradient(90.81deg, rgba(36, 150, 255, 0.8) 0.01%, #2496FF 50.52%, rgba(36, 150, 255, 0.4) 100%);
+    }
+  }
+}
+
+.menu {
+  position: absolute;
+  width: 20em;
+  height: 7em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+
+  & .exit {
+    font-size: 0.9em;
+    top: -2em
+  }
+
+  .button {
+    width: 8em;
+  }
+
+  & img {
+    width: 2.5em;
+  }
+}

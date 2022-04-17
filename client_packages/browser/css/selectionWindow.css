@@ -1,0 +1,98 @@
+
+#selection-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 49vh;
+    min-height: 29.7vh;
+    background: rgba(28, 35, 41, 0.66);
+    border-radius: 1vh;
+    filter: drop-shadow(0 0.5vh 0.5vh rgba(0, 0, 0, 0.25));
+    font-family: Ubuntu;
+    color: white;
+}
+
+#selection-window .header {
+    color: #FF42F7;
+    font-weight: 700;
+    font-size: 2.2vh;
+    margin-top: 2.8vh;
+    text-align: center;
+}
+
+#selection-window .description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.66vh;
+    margin-top: 2vh;
+}
+
+#selection-window .body {
+    padding: 2vh 7vh;
+    text-align: center;
+}
+
+#selection-window .body .record {
+    font-size: 1.55vh;
+    height: 4.5vh;
+    border-radius: 1vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0.6vh 0;
+    line-height: 4.5vh;
+}
+
+#selection-window .body .record:hover {
+    background-color: rgba(134, 134, 134, 0.5);
+}
+
+#selection-window .body .record.selected {
+    background-color: rgba(30, 205, 47, 0.51);
+}
+
+#selection-window .footer {
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: min-content;
+    margin-bottom: 2.8vh;
+}
+
+#selection-window .footer>div {
+    height: 3.9vh;
+    width: 14.8vh;
+    margin: 0 2.3vh;
+    border-radius: 1.3vh;
+    line-height: 3.9vh;
+    text-align: center;
+    font-size: 1.46vh;
+}
+
+#selection-window .left {
+    border: 0.1vh solid #FF42F7;
+}
+
+#selection-window .left:hover {
+    background-color: #FF42F7;
+    color: #000;
+}
+
+#selection-window .left:active {
+    border: 0.1vh solid #FF42F7;
+    background-color: #FF42F7;
+}
+
+#selection-window .right {
+    border: 0.1vh solid rgba(255, 255, 255, 0.6);
+}
+
+#selection-window .right:hover {
+    border: 0.1vh solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000;
+}
+
+#selection-window .right:active {
+    background-color: rgba(255, 255, 255, 0.4);
+}

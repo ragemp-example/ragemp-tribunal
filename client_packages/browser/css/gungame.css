@@ -1,0 +1,52 @@
+.gg_info, .gg_score, .gg_kills {
+    color: white;
+    border: 1px solid white;
+    border-radius: 1em;
+    /*position: absolute;*/
+    padding: 1em;
+    /*right: 13%;*/
+    /*top: 3%;*/
+}
+
+.gg_container {
+    position: absolute;
+    right: 1%;
+    top: 50%;
+}
+
+.gg_info p {
+    margin: 0;
+}
+
+.gg_score {
+    top: 10%;
+    /*width: 7%;*/
+}
+
+.gg_score .gg_teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+}
+
+.gg_score span {
+    font-weight: bold;
+    margin-left: 1.3em;
+}
+
+.gg_score h1 {
+    font-size: 1.2em;
+}
+
+.gg_line {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 1em;
+}
+
+.gg_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: MontserratNew;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: MontserratNew;
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: MontserratNew;
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: LcdNova;
+    src: url("../fonts/LCDnova/a_LCDNova.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: HerrVonMuellerhoff;
+    src: url("../fonts/HerrVonMuellerhoff/HerrVonMuellerhoff.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Chalet-LondonNineteenSixty';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chalet-LondonNineteenSixty'), url('../fonts/Chalet/Chalet-LondonNineteenSixty.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Chalet-ParisNineteenSixty';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chalet-LondonNineteenSixty'), url('../fonts/Chalet/Chalet-ParisNineteenSixty.otf') format('opentype');
+}

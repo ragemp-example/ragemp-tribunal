@@ -1,0 +1,67 @@
+#map-case.ng .window .storage .btn,
+#map-case.ng .window .permission-tab .title>span>a,
+#map-case.ng .verification .btns .btn {
+    color: #B9987A;
+}
+
+#map-case.ng .window .storage .btn:active,
+#map-case.ng .window .permissions .body .cat,
+#map-case.ng .board .title .filter .check-box::after,
+#map-case.ng .verification .btns .btn:active {
+    background-color: #B9987A;
+    color: #fff;
+}
+
+#map-case.ng .body .back svg {
+    fill: #B9987A;
+}
+
+#map-case.ng .screen {
+    background-image: linear-gradient(180deg, #B9987A 14.17%, rgba(0,0,0,0) 14.17%);
+}
+
+#map-case.ng .screen .menu {
+    color: #B9987A;
+}
+
+#map-case.ng .menu .list .item.focus {
+    background-color: #B9987A;
+}
+
+#map-case.ng .board.members .table .record.focus,
+#map-case.ng .table .record:active {
+    background-color: #B9987A!important;
+    color: #fff;
+}
+
+#map-case.ng .window .board .table .record .btn {
+    background-color: #B9987A;
+}
+
+#map-case.ng .window .board .table .record:active .btn,
+#map-case.ng .window .board .table .record.focus .btn,
+#map-case.ng .window .board .table .record .btn:active {
+    background-color: #fff;
+    box-shadow: inset 0px .18vh .74vh rgba(0, 0, 0, 0.25);
+    color: #B9987A;
+}
+
+#map-case .window .board .table .record.focus .btn svg {
+    transform: scale(-1);
+}
+
+#map-case.ng .window .board .table .record:active .btn svg path,
+#map-case.ng .window .board .table .record.focus .btn svg path,
+#map-case.ng .window .board .table .record .btn:active svg path {
+    fill: #B9987A;
+    fill-opacity: 1;
+}
+
+#map-case.ng .window .members .action-modal {
+    color: #B9987A;
+}
+
+#map-case.ng .window .members .action-modal .btn:active {
+    background-color: #B9987A;
+    color: #fff;
+}

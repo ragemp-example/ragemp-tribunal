@@ -1,0 +1,85 @@
+#chat-form-react {
+    height: 40vh;
+    max-height: 40vh;
+    position: absolute;
+    color: white;
+    width: 60%;
+    max-width: 70vw;
+    font-size: 1.6vh;
+    z-index: -1;
+    font-family: chat-font;
+}
+
+#message-list-chat-react {
+    height: 25vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+    user-select: none;
+    word-wrap: normal;
+}
+
+.block-input-chat-react {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+#chat-message-input-react {
+    padding-top: .9vh;
+    padding-bottom: .9vh;
+    width: 80%;
+    position: relative;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+    display: inline-block;
+    margin-left: 1vw;
+    font-size: 1.6vh;
+    font-family: chat-font;
+}
+
+.tag-chat-react {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    /* width: 3vw; */
+    /* font-size: 1.6vh; */
+}
+
+.message-chat-react {
+    width: 100%;
+    overflow-wrap: break-word;  /* не поддерживает IE, Firefox; является копией word-wrap */
+    word-wrap: break-word;
+    word-break: break-all;  /* не поддерживает Opera12.14, значение keep-all не поддерживается IE, Chrome */
+    line-break: auto;  /* нет поддержки для русского языка */
+    hyphens: manual;  /* значение auto не поддерживается Chrome */
+}
+
+.word-chat-react {
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    text-shadow:
+            -0   -1px 0   #000000,
+            0   -1px 0   #000000,
+            -0    1px 0   #000000,
+            0    1px 0   #000000,
+            -1px -0   0   #000000,
+            1px -0   0   #000000,
+            -1px  0   0   #000000,
+            1px  0   0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000;
+
+    letter-spacing: 0.05em;
+}

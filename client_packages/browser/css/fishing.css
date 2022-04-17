@@ -1,0 +1,81 @@
+#fishing {
+    text-align: center;
+    margin-top: 5em;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    font-family: Roboto;
+}
+
+.fishingImage {
+    font-size: 1.8em;
+    color: white;
+}
+
+.fishingImage img {
+    width: 5em;
+}
+
+.fishingImage p {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.fishingLine {
+    width: 100%;
+    height: 2.5em;
+    border-radius: 0.3em;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    margin-top: 3em;
+}
+
+.fishingZone {
+    background: linear-gradient(180deg, rgba(64, 163, 255, 0.9) 0%, rgba(28, 91, 255, 0.9) 100%);
+    box-shadow: 0px 0px 25px rgba(48, 132, 252, 0.5);
+    border-radius: 0.3em;
+    height: 100%;
+}
+
+.fishingCursor {
+    background-color: white;
+    width: 0.15em;
+    height: 6em;
+    border-radius: 1em;
+    position: absolute;
+    top: -2em;
+}
+
+.fishingWait {
+    color: white;
+    margin-top: 3em;
+}
+
+.fishingHelp {
+    background-image: linear-gradient(106.73deg, rgba(0, 0, 0, 0.24) 0.01%, rgba(0, 0, 0, 0.32) 33.33%, rgba(0, 0, 0, 0) 100%);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, .05);
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto;
+    font-size: 1.5vh;
+    padding: 1.3vh 1.85vh;
+    position: fixed;
+    right: 5em;
+    bottom: 20em;
+    max-width: 32vh;
+    word-break: break-word;
+}
+
+.fishingHelp p {
+    padding: 1vh;
+    text-align: center;
+}
+
+.fishingHelp span {
+    background-image: linear-gradient(149.38deg, rgba(255, 255, 255, 0.8) 19.48%, #FFFFFF 41.29%, rgba(255, 255, 255, 0.4) 84.91%);
+    background-repeat: no-repeat;
+    color: #000;
+    font-weight: bold;
+    padding: .37vh .5vh;
+}

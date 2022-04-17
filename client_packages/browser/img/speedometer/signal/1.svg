@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="65" viewBox="0 0 82 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="250" y="639" width="82" height="65" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="5" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#35c82a" flood-opacity="0.5"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#35c82a"/>
+      <feComposite result="composite-5" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+    </filter>
+  </defs>
+  <path id="Активный_поворотник" data-name="Активный поворотник" class="cls-1" d="M316.581,662.487H289.5v-9.239L264.933,671.1l24.565,17.85V679.71h27.083V662.487Z" transform="translate(-250 -639)"/>
+</svg>

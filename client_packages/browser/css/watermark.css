@@ -1,0 +1,13 @@
+#watermark {
+    display: flex;
+    justify-content: space-around;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+#watermark div {
+    background: #000;
+    height: 100%;
+}

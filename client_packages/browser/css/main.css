@@ -1,0 +1,108 @@
+[v-cloak] {
+    display: none;
+}
+
+:root {
+    --gradient-basic: linear-gradient(180deg, #0061CF 0%, #004EA7 100%);
+    --gradient-basic-h: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%),
+        linear-gradient(180deg, #0061CF 0%, #004EA7 100%);
+    --link: #3693FF;
+    --yes: #52FD63;
+    --no: #FF4747;
+}
+
+body {
+    /* background-image: url('../img/bg.jpg'); */
+    background-size: cover;
+    font-family: Inter, monospace, sans-serif;
+    font-size: 1.4vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    user-select: none;
+    /* Перспектива */
+    perspective: 700px;
+    transform-style: preserve-3d;
+    perspective-origin: 50% 50%;
+
+    height: 100vh;
+}
+
+body input::selection {
+    background-color: #2496FF;
+    color: #000;
+}
+
+body .text {
+    color: white;
+    font-size: 1.5vh;
+    font-weight: normal;
+}
+
+body .text-big {
+    color: white;
+    font-size: 1.66vh;
+    font-weight: 400;
+}
+
+body .text-bold {
+    color: white;
+    font-size: 1.5vh;
+    font-weight: 700;
+}
+
+body .text-small {
+    color: white;
+    font-size: 1.3vh;
+    font-weight: 400;
+}
+
+body .text-h1 {
+    color: white;
+    font-size: 3.33vh;
+    font-weight: 700;
+}
+
+body .text-h2 {
+    color: white;
+    font-size: 2.22vh;
+    font-weight: 700;
+}
+
+body .text-h3 {
+    color: white;
+    font-size: 2.22vh;
+    font-weight: 500;
+}
+
+::-webkit-scrollbar-button {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 1px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #2e2e2e;
+    box-shadow: 0px 0px 3px #000 inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3a3a39;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 0px;
+    cursor: pointer;
+    height: 0px
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    cursor: pointer;
+}

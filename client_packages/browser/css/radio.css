@@ -1,0 +1,78 @@
+#radio {
+    background-image: url('../img/radio/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 7.3vh;
+    font-family: LcdNova;
+    height: 64vh;
+    position: absolute;
+    right: 12.7vh;
+    width: 27.4vh;
+}
+
+#radio .wave {
+    color: #0F0F0F;
+    font-size: 5.55vh;
+    margin-top: 25.5vh;
+    text-align: center;
+    width: 100%;
+}
+
+#radio .btns {
+    display: grid;
+    grid-column-gap: .55vh;
+    grid-row-gap: .9vh;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: repeat(2, min-content);
+    margin: auto;
+    margin-top: 3.1vh;
+    /* transform: translate(-.5vh); */
+    width: min-content;
+}
+
+#radio .btns .btn {
+    background-image: url("../img/radio/btn.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #7A7A7A;
+    display: flex;
+    font-size: 3.9vh;
+    height: 3.7vh;
+    line-height: 4.1vh;
+    width: 5.37vh;
+}
+
+#radio .btns .btn.active {
+    background-image: url("../img/radio/down-btn.svg");
+}
+
+#radio .btns .btn>div {
+    margin: auto;
+    pointer-events: none;
+}
+
+#radio .btns .btn.left>div {
+    transform: translate(-20%);
+}
+
+#radio .connection {
+    background: rgba(201, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 1.2vh rgba(0, 0, 0, 0.25);
+    border-radius: .5vh;
+    border: .3vh solid #5F0000;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 1.4vh;
+    height: 4vh;
+    line-height: 4vh;
+    margin: auto;
+    margin-top: 1.4vh;
+    text-align: center;
+    text-transform: uppercase;
+    width: 12.3vh;
+}
+
+#radio .connection.waiting {
+    color: rgba(150, 150, 150, 1);
+}
